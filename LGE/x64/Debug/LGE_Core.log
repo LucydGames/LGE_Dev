@@ -1,0 +1,5 @@
+﻿  application.cpp
+C:\source\LGE_Dev\LGE\application.cpp(6,14): warning C4804: '<': unsafe use of type 'bool' in operation
+  main.cpp
+  Generating Code...
+  LGE_Core.vcxproj -> C:\source\LGE_Dev\x64\Debug\LGE_Core.exe

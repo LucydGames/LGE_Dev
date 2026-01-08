@@ -1,0 +1,1 @@
+C:\source\Getting-Started-With-BGFX\Getting Started With BGFX\freetype-2.14.1\objs\x64\Debug\freetype.dll
