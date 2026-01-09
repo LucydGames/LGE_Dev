@@ -2,6 +2,7 @@
 
 #include "imgui_impl_bgfx.h"
 #include "imgui_impl_sdl3.h"
+//#include "imgui.h"
 #include <SDL3/SDL.h>
 #include <bgfx/bgfx.h> // For bgfx::RendererType::Enum
 #include <string>
@@ -31,12 +32,12 @@ namespace lge
 	class ImGuiLayer
 	{
 		public:
-			ImGuiLayer() = default;
-			~ImGuiLayer() = default;
-			//void Initialize(SDL_Window* window);
-			//void BeginFrame();
-			//void EndFrame();
-			//void Shutdown();
+			ImGuiLayer();
+			~ImGuiLayer() {};
+			bool Initialize(SDL_Window* window, uint16_t ViewId, bgfx::RendererType::Enum RenderAPI);
+			void BeginFrame();
+			void EndFrame();
+			void Shutdown();
 		private:
 			//SDL_Window* AttachedWindow;
 

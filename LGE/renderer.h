@@ -9,6 +9,7 @@
 #include "shader.h"
 #include "image.h"
 #include "frame_buffer.h"
+#include "log.h"
 
 struct Vertex
 {

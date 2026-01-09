@@ -1,0 +1,8 @@
+﻿  renderer.cpp
+C:\source\LGE_Dev\LGE\renderer.cpp(39,84): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\source\LGE_Dev\LGE\renderer.cpp(53,99): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\source\LGE_Dev\LGE\renderer.cpp(100,98): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\source\LGE_Dev\LGE\renderer.cpp(127,43): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\source\LGE_Dev\LGE\renderer.cpp(146,43): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\source\LGE_Dev\LGE\renderer.cpp(178,86): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+  LGE_Core.vcxproj -> C:\source\LGE_Dev\x64\Release\LGE_Core.lib

@@ -10,6 +10,7 @@ Renderer::Renderer()
 
 void Renderer::Initialize(SDL_Window* window, bgfx::RendererType::Enum RendererApiType)
 {
+	Log::GetInstance().PrintInfo("Initializing Renderer...");
 	bgfx::Init init;
 	init.resolution.width = SCREEN_WIDTH;
 	init.resolution.height = SCREEN_HEIGHT;
@@ -18,7 +19,7 @@ void Renderer::Initialize(SDL_Window* window, bgfx::RendererType::Enum RendererA
 
 	if (bgfx::init(init) == false)
 	{
-		std::println("Could not initialize BGFX");
+		Log::GetInstance().PrintError("Could not initialize BGFX");
 	}
 
 	std::vector<uint16_t> indices;
@@ -38,7 +39,7 @@ void Renderer::Initialize(SDL_Window* window, bgfx::RendererType::Enum RendererA
 	m_IndexBuffer = bgfx::createIndexBuffer(bgfx::copy(indices.data(), indices.size() * 2));
 	if (bgfx::isValid(m_IndexBuffer) == false)
 	{
-		std::println("Could not create index buffer");
+		Log::GetInstance().PrintError("Could not create index buffer");
 	}
 
 
@@ -52,18 +53,37 @@ void Renderer::Initialize(SDL_Window* window, bgfx::RendererType::Enum RendererA
 	m_VertexBuffer = bgfx::createDynamicVertexBuffer(bgfx::makeRef(m_Vertices.data(), sizeof(Vertex) * m_Vertices.size()), m_VertexLayout);
 	if (bgfx::isValid(m_VertexBuffer) == false)
 	{
-		std::println("Could not create vertex buffer");
+		Log::GetInstance().PrintError("Could not create vertex buffer");
 	}
 
 	m_Uniform = bgfx::createUniform("textureColor", bgfx::UniformType::Sampler);
 	if (bgfx::isValid(m_Uniform) == false)
 	{
-		std::println("Could not create uniform");
+		Log::GetInstance().PrintError("Could not create uniform");
 	}
 
 	uint32_t white = 0xffffffff;
 	m_WhiteImage = new Image(&white, 1, 1);
-	m_ShaderProgram = new ShaderProgram("vertex.bin", "frag.bin");
+
+	switch (bgfx::getRendererType())
+	{
+	case bgfx::RendererType::Vulkan:
+		m_ShaderProgram = new ShaderProgram("../LGE/vertexspirv.bin", "../LGE/fragspirv.bin");
+		break;
+	case bgfx::RendererType::Direct3D11:
+		m_ShaderProgram = new ShaderProgram("../LGE/vertexd3d.bin", "../LGE/fragd3d.bin");
+		break;
+	case bgfx::RendererType::Direct3D12:
+		m_ShaderProgram = new ShaderProgram("../LGE/vertexd3d.bin", "../LGE/fragd3d.bin");
+		break;
+	case bgfx::RendererType::OpenGL:
+		m_ShaderProgram = new ShaderProgram("../LGE/vertexspirv.bin", "../LGE/fragspirv.bin");
+		break;
+	default:
+		m_ShaderProgram = new ShaderProgram("../LGE/vertexspirv.bin", "../LGE/fragspirv.bin");
+		break;
+	}
+	//m_ShaderProgram = new ShaderProgram("../LGE/vertex.bin", "../LGE/frag.bin"); //Change path to sdk library default shaders 
 
 	m_Camera = { 0.0f, 0.0f, -1.0f };
 	m_At = { 0.0f, 0.0f, 0.0f };
