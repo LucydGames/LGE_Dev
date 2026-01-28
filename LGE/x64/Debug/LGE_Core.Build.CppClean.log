@@ -3,6 +3,7 @@ c:\source\lge_dev\x64\debug\lge_core.idb
 c:\source\lge_dev\lge\x64\debug\frame_buffer.obj
 c:\source\lge_dev\lge\x64\debug\shader.obj
 c:\source\lge_dev\lge\x64\debug\renderer.obj
+c:\source\lge_dev\lge\x64\debug\log.obj
 c:\source\lge_dev\lge\x64\debug\imgui_widgets.obj
 c:\source\lge_dev\lge\x64\debug\imgui_tables.obj
 c:\source\lge_dev\lge\x64\debug\imgui_draw.obj
@@ -12,7 +13,6 @@ c:\source\lge_dev\lge\x64\debug\imgui_impl_sdl3.obj
 c:\source\lge_dev\lge\x64\debug\imgui_impl_bgfx.obj
 c:\source\lge_dev\lge\x64\debug\image.obj
 c:\source\lge_dev\lge\x64\debug\application.obj
-c:\source\lge_dev\lge\x64\debug\log.obj
 c:\source\lge_dev\x64\debug\lge_core.lib
 c:\source\lge_dev\lge\x64\debug\lge_core.tlog\cl.command.1.tlog
 c:\source\lge_dev\lge\x64\debug\lge_core.tlog\cl.items.tlog

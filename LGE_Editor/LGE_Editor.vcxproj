@@ -96,7 +96,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\source\LGE_Dev\LGE\x64\Debug;C:\source\LGE_Dev\LGE\SDL3-3.2.24\lib\x64;C:\source\LGE_Dev\LGE\freetype-2.14.1\objs\x64\Debug;C:\source\LGE_Dev\LGE\bgfx\.build\win64_vs2022\bin;$(SolutionDir)x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>LGE_Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -132,7 +132,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\source\LGE_Dev\LGE\x64\Debug;C:\source\LGE_Dev\LGE\SDL3-3.2.24\lib\x64;C:\source\LGE_Dev\LGE\freetype-2.14.1\objs\x64\Debug;C:\source\LGE_Dev\LGE\bgfx\.build\win64_vs2022\bin;$(SolutionDir)x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>LGE_Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

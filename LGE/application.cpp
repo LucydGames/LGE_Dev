@@ -5,20 +5,43 @@ lge::Application::Application()
 {
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
-		std::println("Couldn't initialize SDL: {}", SDL_GetError());
-		//return 1;
+		Log::GetInstance().PrintError("Couldn't initialize SDL:");
+		Log::GetInstance().PrintError(SDL_GetError());
+		//std::println("Couldn't initialize SDL: {}", SDL_GetError());
 	}
+	
 }
 
 lge::Application::~Application()
 {
+	ImGuiLayer.Shutdown();
 	MainWindow.~LgeWindow();
+}
+
+bool lge::Application::InitializeLayers()
+{
+	bool ResultSDL = false;
+
+	ImGui::CreateContext();
+
+	ResultSDL = ImGui_ImplSDL3_InitForOther(MainWindow.GetWindow());
+
+	bImGuiInitialized = ResultSDL;
+
+	return bImGuiInitialized;
+}
+
+void lge::Application::RenderLayers()
+{
+	ImGui::Render(); // DEPRECATE
 }
 
 void lge::Application::PollEvents()
 {
-	while (SDL_PollEvent(&Event))
+	if (SDL_PollEvent(&Event))
 	{
+		if (bImGuiInitialized)
+			ImGuiLayer.ProcessEvent(Event); // Switch to not use ImGuiLayer, deprecated
 		switch (Event.type)
 		{
 		case SDL_EVENT_QUIT:
@@ -26,6 +49,11 @@ void lge::Application::PollEvents()
 			break;
 		}
 	}
+}
+
+void lge::Application::BeginFrame()
+{
+	ImGuiLayer.BeginFrameSDL();
 }
 
 SDL_Window* lge::Application::GetMainWindow()
@@ -52,42 +80,34 @@ lge::ImGuiLayer::ImGuiLayer()
 	
 }
 
-bool lge::ImGuiLayer::Initialize(SDL_Window* window, uint16_t ViewId, bgfx::RendererType::Enum RenderAPI)
+bool lge::ImGuiLayer::Initialize(SDL_Window* window)
 {
-	//ImGui_ImplSDL3_InitForBGFX(window);
-	bool result = false;
 	
-	switch (RenderAPI)
-	{
-	case bgfx::RendererType::OpenGL:
-		result = ImGui_ImplSDL3_InitForOpenGL(window, nullptr);
-		break;
-	case bgfx::RendererType::Vulkan:
-		result = ImGui_ImplSDL3_InitForVulkan(window);
-		break;
-	case bgfx::RendererType::Direct3D11:
-		result = ImGui_ImplSDL3_InitForD3D(window);
-		break;
-	default:
-		break;
-	}
-	ImGui_ImplBgfx_Init(ViewId);
-	return result;
 }
 
-void lge::ImGuiLayer::BeginFrame()
+void lge::ImGuiLayer::ProcessEvent(SDL_Event& event)
+{
+	ImGui_ImplSDL3_ProcessEvent(&event);
+}
+
+void lge::ImGuiLayer::BeginFrameSDL()
 {
 	ImGui_ImplSDL3_NewFrame();
-	ImGui_ImplBgfx_NewFrame();
+	
 }
 
 void lge::ImGuiLayer::EndFrame()
 {
-	ImGui::Render();
+	//ImGui::Render();
+	ImGui::End();
 }
 
 void lge::ImGuiLayer::Shutdown()
 {
-	ImGui_ImplBgfx_Shutdown();
 	ImGui_ImplSDL3_Shutdown();
+}
+
+void lge::ImGuiLayer::ShowDemoWindow()
+{
+	ImGui::ShowDemoWindow();
 }

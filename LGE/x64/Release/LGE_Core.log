@@ -1,8 +1,6 @@
-﻿  renderer.cpp
-C:\source\LGE_Dev\LGE\renderer.cpp(39,84): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
-C:\source\LGE_Dev\LGE\renderer.cpp(53,99): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
-C:\source\LGE_Dev\LGE\renderer.cpp(100,98): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
-C:\source\LGE_Dev\LGE\renderer.cpp(127,43): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
-C:\source\LGE_Dev\LGE\renderer.cpp(146,43): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
-C:\source\LGE_Dev\LGE\renderer.cpp(178,86): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+﻿  lge_model.cpp
+C:\source\LGE_Dev\LGE\lge_model.cpp(57,110): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\source\LGE_Dev\LGE\lge_model.cpp(63,112): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\source\LGE_Dev\LGE\lge_model.cpp(75,84): warning C4305: 'argument': truncation from 'unsigned __int64' to 'uint32_t'
+C:\source\LGE_Dev\LGE\lge_model.cpp(75,84): warning C4309: 'argument': truncation of constant value
   LGE_Core.vcxproj -> C:\source\LGE_Dev\x64\Release\LGE_Core.lib

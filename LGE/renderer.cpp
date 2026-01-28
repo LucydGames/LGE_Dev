@@ -93,29 +93,52 @@ void Renderer::Initialize(SDL_Window* window, bgfx::RendererType::Enum RendererA
 
 	m_FrameBuffer = new FrameBuffer(SCREEN_WIDTH, SCREEN_HEIGHT);
 
+	//                         Position              // Color   //Normal                // TexCoord/UV
+	// m_NDCVertices.push_back({ {-1.0f, 1.0f, 0.0f}, 0xffffffff, {1.0f, 0.0f, 0.0f}, {0.0f, 0.0f} });     3d version.. Add support for both in one struct later
 	m_NDCVertices.push_back({ {-1.0f, 1.0f, 0.0f}, 0xffffffff, {0.0f, 0.0f} });
 	m_NDCVertices.push_back({ {1.0f, 1.0f, 0.0f}, 0xffffffff, {1.0f, 0.0f} });
 	m_NDCVertices.push_back({ {1.0f, -1.0f, 0.0f}, 0xffffffff, {1.0f, 1.0f} });
 	m_NDCVertices.push_back({ {-1.0f, -1.0f, 0.0f}, 0xffffffff, {0.0f, 1.0f} });
-	m_NDCVertexBuffer = bgfx::createVertexBuffer(bgfx::makeRef(m_NDCVertices.data(), sizeof(Vertex) * m_NDCVertices.size()), m_VertexLayout);
+	m_NDCVertexBuffer = bgfx::createDynamicVertexBuffer(bgfx::makeRef(m_NDCVertices.data(), sizeof(Vertex) * m_NDCVertices.size()), m_VertexLayout);
+}
+
+void Renderer::InitializeImGui(int ViewId)
+{
+	if (bImGuiInitialized == false)
+	{
+		ImGui_ImplBgfx_Init(ViewId);
+		bImGuiInitialized = true;
+	}
 }
 
 void Renderer::Begin()
 {
 	bgfx::reset(SCREEN_WIDTH, SCREEN_HEIGHT, BGFX_RESET_VSYNC);
+	m_Stencil = BGFX_STENCIL_NONE;
 
 	m_Vertices.clear();
 	m_RenderBatches.clear();
 
-	bgfx::setViewRect(0, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
-	bgfx::setViewClear(0, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, 0x00FFFFFF);
-	bgfx::setViewTransform(0, glm::value_ptr(m_View), glm::value_ptr(m_Projection));
-	bgfx::setViewFrameBuffer(0, m_FrameBuffer->GetFrameBufferHandle());
+	bgfx::setViewClear(THREE_D_VIEW, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, 0x00ffffff);
+	bgfx::setViewRect(THREE_D_VIEW, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+	bgfx::setViewTransform(THREE_D_VIEW, glm::value_ptr(m_View), glm::value_ptr(m_PerspectiveProjection));
+	bgfx::setViewFrameBuffer(THREE_D_VIEW, m_FrameBuffer->GetFrameBufferHandle());
 
-	bgfx::setViewRect(1, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
-	bgfx::setViewClear(1, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, 0xFFFFFFFF);
+	bgfx::setViewRect(TWO_D_VIEW, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+	bgfx::setViewClear(TWO_D_VIEW, BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, 0x00FFFFFF);
+	bgfx::setViewTransform(TWO_D_VIEW, glm::value_ptr(m_View), glm::value_ptr(m_Projection));
+	bgfx::setViewFrameBuffer(TWO_D_VIEW, m_FrameBuffer->GetFrameBufferHandle());
 
-	bgfx::touch(0);
+	bgfx::setViewRect(RENDER_VIEW, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+	bgfx::setViewClear(RENDER_VIEW, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, 0xFFFFFFFF);
+
+	bgfx::touch(TWO_D_VIEW);
+	bgfx::touch(THREE_D_VIEW);
+
+	if (bImGuiInitialized)
+	{
+		ImGui_ImplBgfx_NewFrame();
+	}
 }
 
 
@@ -171,12 +194,28 @@ void Renderer::DisableStencil()
 	m_Stencil = BGFX_STENCIL_NONE;
 }
 
+void Renderer::SetPostProcessColor(uint32_t color)
+{
+	m_NDCVertices[0].Color = color;
+	m_NDCVertices[1].Color = color;
+	m_NDCVertices[2].Color = color;
+	m_NDCVertices[3].Color = color;
+	bgfx::update(m_NDCVertexBuffer, 0, bgfx::makeRef(m_NDCVertices.data(), m_NDCVertices.size() * sizeof(Vertex)));
+}
+
+void Renderer::SetClearColor2D(uint32_t color)
+{
+	ClearColor2d = color;
+	bgfx::setViewClear(TWO_D_VIEW, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, ClearColor2d);
+}
+
 void Renderer::Render()
 {
 	if (m_Vertices.size() > 0)
 	{
 		bgfx::update(m_VertexBuffer, 0, bgfx::makeRef(m_Vertices.data(), m_Vertices.size() * sizeof(Vertex)));
 	}
+	bgfx::update(m_NDCVertexBuffer, 0, bgfx::makeRef(m_NDCVertices.data(), m_NDCVertices.size() * sizeof(Vertex)));
 
 	for (RenderBatch& batch : m_RenderBatches)
 	{
@@ -186,13 +225,19 @@ void Renderer::Render()
 		bgfx::setVertexBuffer(0, m_VertexBuffer);
 		bgfx::setIndexBuffer(m_IndexBuffer, batch.StartIndex, batch.NumberOfIndices);
 		bgfx::setTexture(0, m_Uniform, batch.Texture);
-		bgfx::submit(0, m_ShaderProgram->GetProgramHandle(), batch.Depth);
+		bgfx::submit(TWO_D_VIEW, m_ShaderProgram->GetProgramHandle(), batch.Depth);
 	}
 
 	bgfx::setVertexBuffer(0, m_NDCVertexBuffer);
 	bgfx::setIndexBuffer(m_IndexBuffer, 0, 6);
 	bgfx::setTexture(0, m_Uniform, m_FrameBuffer->GetColorAttachmentHandle());
-	bgfx::submit(1, m_ShaderProgram->GetProgramHandle());
+	bgfx::submit(RENDER_VIEW, m_ShaderProgram->GetProgramHandle());
+
+	if (bImGuiInitialized)
+	{
+		ImGui::Render();
+		ImGui_ImplBgfx_RenderDrawData(ImGui::GetDrawData());
+	}
 
 	bgfx::frame();
 }

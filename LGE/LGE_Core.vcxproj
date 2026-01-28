@@ -72,18 +72,18 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LibraryPath>$(ProjectDir)SDL3-3.2.24\lib\x64;$(ProjectDir)bgfx\.build\win64_vs2022\bin;$(ProjectDir)freetype-2.14.1\objs\x64\Debug;$(LibraryPath)</LibraryPath>
-    <IncludePath>$(ProjectDir)stb;$(ProjectDir)imgui;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bimg\include;$(ProjectDir)bgfx\include;$(ProjectDir)SDL3-3.2.24\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>$(ProjectDir)SDL3-3.2.24\lib\x64;$(ProjectDir)bgfx\.build\win64_vs2022\bin;$(ProjectDir)freetype-2.14.1\objs\x64\Debug;$(LibraryPath)</LibraryPath>
-    <IncludePath>$(ProjectDir)stb;$(ProjectDir)imgui;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bimg\include;$(ProjectDir)bgfx\include;$(ProjectDir)SDL3-3.2.24\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(ProjectDir)stb;$(ProjectDir)imgui;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bimg\include;$(ProjectDir)bgfx\include;$(ProjectDir)SDL3-3.2.24\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)obj;$(ProjectDir)stb;$(ProjectDir)imgui;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bimg\include;$(ProjectDir)bgfx\include;$(ProjectDir)SDL3-3.2.24\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(ProjectDir)stb;$(ProjectDir)imgui;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bimg\include;$(ProjectDir)bgfx\include;$(ProjectDir)SDL3-3.2.24\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)obj;$(ProjectDir)stb;$(ProjectDir)imgui;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bimg\include;$(ProjectDir)bgfx\include;$(ProjectDir)SDL3-3.2.24\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -93,7 +93,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp23</LanguageStandard>
       <LanguageStandard_C>Default</LanguageStandard_C>
-      <AdditionalIncludeDirectories>$(ProjectDir)imgui\backends;$(ProjectDir)imgui;$(ProjectDir)stb;$(ProjectDir)SDL3-3.2.24;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bgfx\include;$(ProjectDir)bimg\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)entt;$(ProjectDir)json;$(ProjectDir)imgui\backends;$(ProjectDir)imgui;$(ProjectDir)stb;$(ProjectDir)SDL3-3.2.24;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bgfx\include;$(ProjectDir)bimg\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -121,7 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)imgui\backends;$(ProjectDir)imgui;$(ProjectDir)stb;$(ProjectDir)SDL3-3.2.24;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bgfx\include;$(ProjectDir)bimg\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)obj;$(ProjectDir)entt;$(ProjectDir)json;$(ProjectDir)imgui\backends;$(ProjectDir)imgui;$(ProjectDir)stb;$(ProjectDir)SDL3-3.2.24;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bgfx\include;$(ProjectDir)bimg\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp23</LanguageStandard>
     </ClCompile>
     <Link>
@@ -147,7 +147,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;BX_CONFIG_DEBUG;GLM_FORCE_LEFT_HANDED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)imgui\backends;$(ProjectDir)imgui;$(ProjectDir)stb;$(ProjectDir)SDL3-3.2.24;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bgfx\include;$(ProjectDir)bimg\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)entt;$(ProjectDir)json;$(ProjectDir)imgui\backends;$(ProjectDir)imgui;$(ProjectDir)stb;$(ProjectDir)SDL3-3.2.24;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bgfx\include;$(ProjectDir)bimg\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:preprocessor /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <LanguageStandard>stdcpp23</LanguageStandard>
@@ -178,7 +178,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;BX_CONFIG_DEBUG=0;GLM_FORCE_LEFT_HANDED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)imgui\backends;$(ProjectDir)imgui;$(ProjectDir)stb;$(ProjectDir)SDL3-3.2.24;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bgfx\include;$(ProjectDir)bimg\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)obj;$(ProjectDir)entt;$(ProjectDir)json;$(ProjectDir)imgui\backends;$(ProjectDir)imgui;$(ProjectDir)stb;$(ProjectDir)SDL3-3.2.24;$(ProjectDir)glm;$(ProjectDir)freetype-2.14.1\include;$(ProjectDir)bx\include;$(ProjectDir)bgfx\include;$(ProjectDir)bimg\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp23</LanguageStandard>
       <AdditionalOptions>/Zc:preprocessor /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -210,6 +210,7 @@
     <ClCompile Include="imgui\imgui_draw.cpp" />
     <ClCompile Include="imgui\imgui_tables.cpp" />
     <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="lge_model.cpp" />
     <ClCompile Include="log.cpp" />
     <ClCompile Include="renderer.cpp" />
     <ClCompile Include="shader.cpp" />
@@ -217,13 +218,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="application.h" />
+    <ClInclude Include="components.h" />
     <ClInclude Include="frame_buffer.h" />
     <ClInclude Include="image.h" />
     <ClInclude Include="imgui\backends\imgui_impl_bgfx.h" />
     <ClInclude Include="imgui\backends\imgui_impl_sdl3.h" />
     <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="lge_model.h" />
     <ClInclude Include="log.h" />
+    <ClInclude Include="meta.h" />
     <ClInclude Include="renderer.h" />
+    <ClInclude Include="renderer_common.h" />
+    <ClInclude Include="scene.h" />
     <ClInclude Include="shader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -7,6 +7,7 @@ C:\source\LGE_Dev\LGE\imgui\imgui_demo.cpp;C:\source\LGE_Dev\LGE\x64\Release\img
 C:\source\LGE_Dev\LGE\imgui\imgui_draw.cpp;C:\source\LGE_Dev\LGE\x64\Release\imgui_draw.obj
 C:\source\LGE_Dev\LGE\imgui\imgui_tables.cpp;C:\source\LGE_Dev\LGE\x64\Release\imgui_tables.obj
 C:\source\LGE_Dev\LGE\imgui\imgui_widgets.cpp;C:\source\LGE_Dev\LGE\x64\Release\imgui_widgets.obj
+C:\source\LGE_Dev\LGE\lge_model.cpp;C:\source\LGE_Dev\LGE\x64\Release\lge_model.obj
 C:\source\LGE_Dev\LGE\log.cpp;C:\source\LGE_Dev\LGE\x64\Release\log.obj
 C:\source\LGE_Dev\LGE\renderer.cpp;C:\source\LGE_Dev\LGE\x64\Release\renderer.obj
 C:\source\LGE_Dev\LGE\shader.cpp;C:\source\LGE_Dev\LGE\x64\Release\shader.obj
