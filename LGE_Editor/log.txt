@@ -1327,3 +1327,403 @@
 [2026-01-28 02:26:37] [INFO:] Using Renderer API:
 [2026-01-28 02:26:37] [INFO:] Vulkan
 [2026-01-28 02:26:37] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 15:00:25] [INFO:] Application Started.
+[2026-01-28 15:00:25] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:00:25] [INFO:] Initializing Renderer...
+[2026-01-28 15:00:26] [INFO:] Using Renderer API:
+[2026-01-28 15:00:26] [INFO:] Vulkan
+[2026-01-28 15:00:26] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 15:00:51] [INFO:] Application Started.
+[2026-01-28 15:00:51] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:00:51] [INFO:] Initializing Renderer...
+[2026-01-28 15:00:52] [INFO:] Using Renderer API:
+[2026-01-28 15:00:52] [INFO:] Vulkan
+[2026-01-28 15:00:52] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 15:27:42] [INFO:] Application Started.
+[2026-01-28 15:27:42] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:27:42] [INFO:] Initializing Renderer...
+[2026-01-28 15:27:42] [INFO:] Using Renderer API:
+[2026-01-28 15:27:42] [INFO:] Vulkan
+[2026-01-28 15:27:42] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 15:29:22] [INFO:] Application Started.
+[2026-01-28 15:29:22] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:29:22] [INFO:] Initializing Renderer...
+[2026-01-28 15:29:23] [INFO:] Using Renderer API:
+[2026-01-28 15:29:23] [INFO:] Vulkan
+[2026-01-28 15:29:23] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 15:35:49] [INFO:] Application Started.
+[2026-01-28 15:35:49] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:35:49] [INFO:] Initializing Renderer...
+[2026-01-28 15:35:50] [INFO:] Using Renderer API:
+[2026-01-28 15:35:50] [INFO:] Vulkan
+[2026-01-28 15:35:50] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 15:38:20] [INFO:] Application Started.
+[2026-01-28 15:38:20] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:38:20] [INFO:] Initializing Renderer...
+[2026-01-28 15:38:21] [INFO:] Using Renderer API:
+[2026-01-28 15:38:21] [INFO:] Vulkan
+[2026-01-28 15:38:21] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 15:42:35] [INFO:] Application Started.
+[2026-01-28 15:42:35] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:42:35] [INFO:] Initializing Renderer...
+[2026-01-28 15:42:36] [INFO:] Using Renderer API:
+[2026-01-28 15:42:36] [INFO:] Vulkan
+[2026-01-28 15:42:36] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 15:47:30] [INFO:] Application Started.
+[2026-01-28 15:47:30] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:47:30] [INFO:] Initializing Renderer...
+[2026-01-28 15:47:31] [INFO:] Using Renderer API:
+[2026-01-28 15:47:31] [INFO:] Vulkan
+[2026-01-28 15:47:52] [INFO:] Application Started.
+[2026-01-28 15:47:52] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:47:52] [INFO:] Initializing Renderer...
+[2026-01-28 15:47:52] [INFO:] Using Renderer API:
+[2026-01-28 15:47:52] [INFO:] Vulkan
+[2026-01-28 15:48:38] [INFO:] Application Started.
+[2026-01-28 15:48:38] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:48:38] [INFO:] Initializing Renderer...
+[2026-01-28 15:48:38] [INFO:] Using Renderer API:
+[2026-01-28 15:48:38] [INFO:] Vulkan
+[2026-01-28 15:48:38] [INFO:] Pyramid model created
+[2026-01-28 15:58:53] [INFO:] Application Started.
+[2026-01-28 15:58:53] [INFO:] ImGui Layer Initialized.
+[2026-01-28 15:58:53] [INFO:] Initializing Renderer...
+[2026-01-28 15:58:54] [INFO:] Using Renderer API:
+[2026-01-28 15:58:54] [INFO:] Vulkan
+[2026-01-28 15:58:54] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:02:18] [INFO:] Application Started.
+[2026-01-28 16:02:18] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:02:18] [INFO:] Initializing Renderer...
+[2026-01-28 16:02:19] [INFO:] Using Renderer API:
+[2026-01-28 16:02:19] [INFO:] Vulkan
+[2026-01-28 16:02:19] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:02:47] [INFO:] Application Started.
+[2026-01-28 16:02:47] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:02:47] [INFO:] Initializing Renderer...
+[2026-01-28 16:02:48] [INFO:] Using Renderer API:
+[2026-01-28 16:02:48] [INFO:] Vulkan
+[2026-01-28 16:02:48] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:08:28] [INFO:] Application Started.
+[2026-01-28 16:08:28] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:08:28] [INFO:] Initializing Renderer...
+[2026-01-28 16:08:28] [INFO:] Using Renderer API:
+[2026-01-28 16:08:28] [INFO:] Vulkan
+[2026-01-28 16:08:28] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:10:34] [INFO:] Application Started.
+[2026-01-28 16:10:34] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:10:34] [INFO:] Initializing Renderer...
+[2026-01-28 16:10:35] [INFO:] Using Renderer API:
+[2026-01-28 16:10:35] [INFO:] Vulkan
+[2026-01-28 16:10:35] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:11:24] [INFO:] Application Started.
+[2026-01-28 16:11:24] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:11:24] [INFO:] Initializing Renderer...
+[2026-01-28 16:11:24] [INFO:] Using Renderer API:
+[2026-01-28 16:11:24] [INFO:] Vulkan
+[2026-01-28 16:11:24] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:13:20] [INFO:] Application Started.
+[2026-01-28 16:13:20] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:13:20] [INFO:] Initializing Renderer...
+[2026-01-28 16:13:20] [INFO:] Using Renderer API:
+[2026-01-28 16:13:20] [INFO:] Vulkan
+[2026-01-28 16:13:20] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:13:55] [INFO:] Application Started.
+[2026-01-28 16:13:55] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:13:55] [INFO:] Initializing Renderer...
+[2026-01-28 16:13:56] [INFO:] Using Renderer API:
+[2026-01-28 16:13:56] [INFO:] Vulkan
+[2026-01-28 16:13:56] [INFO:] Pyramid model created
+[2026-01-28 16:14:54] [INFO:] Application Started.
+[2026-01-28 16:14:54] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:14:54] [INFO:] Initializing Renderer...
+[2026-01-28 16:14:55] [INFO:] Using Renderer API:
+[2026-01-28 16:14:55] [INFO:] Vulkan
+[2026-01-28 16:14:55] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:15:40] [INFO:] Application Started.
+[2026-01-28 16:15:40] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:15:40] [INFO:] Initializing Renderer...
+[2026-01-28 16:15:40] [INFO:] Using Renderer API:
+[2026-01-28 16:15:40] [INFO:] Vulkan
+[2026-01-28 16:15:40] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:16:31] [INFO:] Application Started.
+[2026-01-28 16:16:31] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:16:31] [INFO:] Initializing Renderer...
+[2026-01-28 16:16:31] [INFO:] Using Renderer API:
+[2026-01-28 16:16:31] [INFO:] Vulkan
+[2026-01-28 16:16:31] [INFO:] Pyramid model created
+[2026-01-28 16:19:51] [INFO:] Application Started.
+[2026-01-28 16:19:51] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:19:51] [INFO:] Initializing Renderer...
+[2026-01-28 16:19:52] [INFO:] Using Renderer API:
+[2026-01-28 16:19:52] [INFO:] Vulkan
+[2026-01-28 16:19:52] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:36:55] [INFO:] Application Started.
+[2026-01-28 16:36:55] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:36:55] [INFO:] Initializing Renderer...
+[2026-01-28 16:36:55] [INFO:] Using Renderer API:
+[2026-01-28 16:36:55] [INFO:] Vulkan
+[2026-01-28 16:36:56] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:39:49] [INFO:] Application Started.
+[2026-01-28 16:39:49] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:39:49] [INFO:] Initializing Renderer...
+[2026-01-28 16:39:50] [INFO:] Using Renderer API:
+[2026-01-28 16:39:50] [INFO:] Vulkan
+[2026-01-28 16:39:50] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:40:49] [INFO:] Application Started.
+[2026-01-28 16:40:49] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:40:49] [INFO:] Initializing Renderer...
+[2026-01-28 16:40:49] [INFO:] Using Renderer API:
+[2026-01-28 16:40:49] [INFO:] Vulkan
+[2026-01-28 16:40:49] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:42:51] [INFO:] Application Started.
+[2026-01-28 16:42:51] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:42:51] [INFO:] Initializing Renderer...
+[2026-01-28 16:42:52] [INFO:] Using Renderer API:
+[2026-01-28 16:42:52] [INFO:] Vulkan
+[2026-01-28 16:42:52] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 16:43:23] [INFO:] Application Started.
+[2026-01-28 16:43:23] [INFO:] ImGui Layer Initialized.
+[2026-01-28 16:43:23] [INFO:] Initializing Renderer...
+[2026-01-28 16:43:23] [INFO:] Using Renderer API:
+[2026-01-28 16:43:23] [INFO:] Vulkan
+[2026-01-28 16:43:23] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:01:00] [INFO:] Application Started.
+[2026-01-28 17:01:00] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:01:00] [INFO:] Initializing Renderer...
+[2026-01-28 17:01:01] [INFO:] Using Renderer API:
+[2026-01-28 17:01:01] [INFO:] Vulkan
+[2026-01-28 17:01:01] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:01:12] [INFO:] Application Started.
+[2026-01-28 17:01:12] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:01:12] [INFO:] Initializing Renderer...
+[2026-01-28 17:01:13] [INFO:] Using Renderer API:
+[2026-01-28 17:01:13] [INFO:] Vulkan
+[2026-01-28 17:01:13] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:05:17] [INFO:] Application Started.
+[2026-01-28 17:05:17] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:05:17] [INFO:] Initializing Renderer...
+[2026-01-28 17:05:17] [INFO:] Using Renderer API:
+[2026-01-28 17:05:17] [INFO:] Vulkan
+[2026-01-28 17:05:17] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:08:18] [INFO:] Application Started.
+[2026-01-28 17:08:18] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:08:18] [INFO:] Initializing Renderer...
+[2026-01-28 17:08:18] [INFO:] Using Renderer API:
+[2026-01-28 17:08:18] [INFO:] Vulkan
+[2026-01-28 17:08:18] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:08:48] [INFO:] Application Started.
+[2026-01-28 17:08:48] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:08:48] [INFO:] Initializing Renderer...
+[2026-01-28 17:08:48] [INFO:] Using Renderer API:
+[2026-01-28 17:08:48] [INFO:] Vulkan
+[2026-01-28 17:08:48] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:15:15] [INFO:] Application Started.
+[2026-01-28 17:15:15] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:15:15] [INFO:] Initializing Renderer...
+[2026-01-28 17:15:16] [INFO:] Using Renderer API:
+[2026-01-28 17:15:16] [INFO:] Vulkan
+[2026-01-28 17:15:16] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:18:11] [INFO:] Application Started.
+[2026-01-28 17:18:11] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:18:11] [INFO:] Initializing Renderer...
+[2026-01-28 17:18:12] [INFO:] Using Renderer API:
+[2026-01-28 17:18:12] [INFO:] Vulkan
+[2026-01-28 17:18:12] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:22:04] [INFO:] Application Started.
+[2026-01-28 17:22:04] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:22:04] [INFO:] Initializing Renderer...
+[2026-01-28 17:22:04] [INFO:] Using Renderer API:
+[2026-01-28 17:22:04] [INFO:] Vulkan
+[2026-01-28 17:22:04] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:37:32] [INFO:] Application Started.
+[2026-01-28 17:37:32] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:37:32] [INFO:] Initializing Renderer...
+[2026-01-28 17:37:32] [INFO:] Using Renderer API:
+[2026-01-28 17:37:32] [INFO:] Vulkan
+[2026-01-28 17:37:32] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:39:55] [INFO:] Application Started.
+[2026-01-28 17:39:55] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:39:55] [INFO:] Initializing Renderer...
+[2026-01-28 17:39:56] [INFO:] Using Renderer API:
+[2026-01-28 17:39:56] [INFO:] Vulkan
+[2026-01-28 17:39:56] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:41:16] [INFO:] Application Started.
+[2026-01-28 17:41:16] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:41:16] [INFO:] Initializing Renderer...
+[2026-01-28 17:41:17] [INFO:] Using Renderer API:
+[2026-01-28 17:41:17] [INFO:] Vulkan
+[2026-01-28 17:41:17] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 17:53:37] [INFO:] Application Started.
+[2026-01-28 17:53:37] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:53:37] [INFO:] Initializing Renderer...
+[2026-01-28 17:53:38] [INFO:] Using Renderer API:
+[2026-01-28 17:53:38] [INFO:] Vulkan
+[2026-01-28 17:53:38] [INFO:] Loaded model from file: 
+[2026-01-28 17:55:14] [INFO:] Application Started.
+[2026-01-28 17:55:14] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:55:14] [INFO:] Initializing Renderer...
+[2026-01-28 17:55:14] [INFO:] Using Renderer API:
+[2026-01-28 17:55:14] [INFO:] Vulkan
+[2026-01-28 17:55:14] [INFO:] Loaded model from file: 
+[2026-01-28 17:56:19] [INFO:] Application Started.
+[2026-01-28 17:56:19] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:56:19] [INFO:] Initializing Renderer...
+[2026-01-28 17:56:20] [INFO:] Using Renderer API:
+[2026-01-28 17:56:20] [INFO:] Vulkan
+[2026-01-28 17:56:20] [INFO:] Loaded model from file: 
+[2026-01-28 17:57:04] [INFO:] Application Started.
+[2026-01-28 17:57:04] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:57:04] [INFO:] Initializing Renderer...
+[2026-01-28 17:57:04] [INFO:] Using Renderer API:
+[2026-01-28 17:57:04] [INFO:] Vulkan
+[2026-01-28 17:57:04] [INFO:] Loaded model from file: 
+[2026-01-28 17:58:05] [INFO:] Application Started.
+[2026-01-28 17:58:05] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:58:05] [INFO:] Initializing Renderer...
+[2026-01-28 17:58:06] [INFO:] Using Renderer API:
+[2026-01-28 17:58:06] [INFO:] Vulkan
+[2026-01-28 17:58:06] [INFO:] Loaded model from file: 
+[2026-01-28 17:59:13] [INFO:] Application Started.
+[2026-01-28 17:59:13] [INFO:] ImGui Layer Initialized.
+[2026-01-28 17:59:13] [INFO:] Initializing Renderer...
+[2026-01-28 17:59:13] [INFO:] Using Renderer API:
+[2026-01-28 17:59:13] [INFO:] Vulkan
+[2026-01-28 17:59:13] [INFO:] Loaded model from file: 
+[2026-01-28 18:00:23] [INFO:] Application Started.
+[2026-01-28 18:00:23] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:00:23] [INFO:] Initializing Renderer...
+[2026-01-28 18:00:23] [INFO:] Using Renderer API:
+[2026-01-28 18:00:23] [INFO:] Vulkan
+[2026-01-28 18:00:23] [INFO:] Loaded model from file: 
+[2026-01-28 18:00:44] [INFO:] Application Started.
+[2026-01-28 18:00:44] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:00:44] [INFO:] Initializing Renderer...
+[2026-01-28 18:00:45] [INFO:] Using Renderer API:
+[2026-01-28 18:00:45] [INFO:] Vulkan
+[2026-01-28 18:00:45] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:01:51] [INFO:] Application Started.
+[2026-01-28 18:01:51] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:01:51] [INFO:] Initializing Renderer...
+[2026-01-28 18:01:52] [INFO:] Using Renderer API:
+[2026-01-28 18:01:52] [INFO:] Vulkan
+[2026-01-28 18:01:52] [INFO:] Loaded model from file: ../LGE/assets/models/Untitled.obj
+[2026-01-28 18:06:45] [INFO:] Application Started.
+[2026-01-28 18:06:45] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:06:45] [INFO:] Initializing Renderer...
+[2026-01-28 18:06:45] [INFO:] Using Renderer API:
+[2026-01-28 18:06:45] [INFO:] Vulkan
+[2026-01-28 18:06:45] [INFO:] Loaded model from file: ../LGE/assets/models/Untitled.obj
+[2026-01-28 18:11:04] [INFO:] Application Started.
+[2026-01-28 18:11:04] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:11:04] [INFO:] Initializing Renderer...
+[2026-01-28 18:11:05] [INFO:] Using Renderer API:
+[2026-01-28 18:11:05] [INFO:] Vulkan
+[2026-01-28 18:11:05] [INFO:] Loaded model from file: ../LGE/assets/models/Untitled.obj
+[2026-01-28 18:14:37] [INFO:] Application Started.
+[2026-01-28 18:14:37] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:14:37] [INFO:] Initializing Renderer...
+[2026-01-28 18:14:37] [INFO:] Using Renderer API:
+[2026-01-28 18:14:37] [INFO:] Vulkan
+[2026-01-28 18:14:37] [INFO:] Loaded model from file: ../LGE/assets/models/Untitled.obj
+[2026-01-28 18:18:27] [INFO:] Application Started.
+[2026-01-28 18:18:27] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:18:27] [INFO:] Initializing Renderer...
+[2026-01-28 18:18:28] [INFO:] Using Renderer API:
+[2026-01-28 18:18:28] [INFO:] Vulkan
+[2026-01-28 18:18:28] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:21:53] [INFO:] Application Started.
+[2026-01-28 18:21:53] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:21:53] [INFO:] Initializing Renderer...
+[2026-01-28 18:21:54] [INFO:] Using Renderer API:
+[2026-01-28 18:21:54] [INFO:] Vulkan
+[2026-01-28 18:21:54] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:22:35] [INFO:] Application Started.
+[2026-01-28 18:22:35] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:22:35] [INFO:] Initializing Renderer...
+[2026-01-28 18:22:35] [INFO:] Using Renderer API:
+[2026-01-28 18:22:35] [INFO:] Vulkan
+[2026-01-28 18:22:35] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:23:12] [INFO:] Application Started.
+[2026-01-28 18:23:12] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:23:12] [INFO:] Initializing Renderer...
+[2026-01-28 18:23:13] [INFO:] Using Renderer API:
+[2026-01-28 18:23:13] [INFO:] Vulkan
+[2026-01-28 18:23:13] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:25:00] [INFO:] Application Started.
+[2026-01-28 18:25:00] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:25:00] [INFO:] Initializing Renderer...
+[2026-01-28 18:25:01] [INFO:] Using Renderer API:
+[2026-01-28 18:25:01] [INFO:] Vulkan
+[2026-01-28 18:25:01] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:32:56] [INFO:] Application Started.
+[2026-01-28 18:32:56] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:32:56] [INFO:] Initializing Renderer...
+[2026-01-28 18:32:56] [INFO:] Using Renderer API:
+[2026-01-28 18:32:56] [INFO:] Vulkan
+[2026-01-28 18:32:56] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:38:01] [INFO:] Application Started.
+[2026-01-28 18:38:01] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:38:01] [INFO:] Initializing Renderer...
+[2026-01-28 18:38:02] [INFO:] Using Renderer API:
+[2026-01-28 18:38:02] [INFO:] Vulkan
+[2026-01-28 18:38:02] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:38:37] [INFO:] Application Started.
+[2026-01-28 18:38:37] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:38:37] [INFO:] Initializing Renderer...
+[2026-01-28 18:38:38] [INFO:] Using Renderer API:
+[2026-01-28 18:38:38] [INFO:] Vulkan
+[2026-01-28 18:38:38] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:43:42] [INFO:] Application Started.
+[2026-01-28 18:43:42] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:43:42] [INFO:] Initializing Renderer...
+[2026-01-28 18:43:43] [INFO:] Using Renderer API:
+[2026-01-28 18:43:43] [INFO:] Vulkan
+[2026-01-28 18:43:43] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:44:17] [INFO:] Application Started.
+[2026-01-28 18:44:17] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:44:17] [INFO:] Initializing Renderer...
+[2026-01-28 18:44:18] [INFO:] Using Renderer API:
+[2026-01-28 18:44:18] [INFO:] Vulkan
+[2026-01-28 18:44:18] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:45:42] [INFO:] Application Started.
+[2026-01-28 18:45:42] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:45:42] [INFO:] Initializing Renderer...
+[2026-01-28 18:45:43] [INFO:] Using Renderer API:
+[2026-01-28 18:45:43] [INFO:] Vulkan
+[2026-01-28 18:45:43] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-28 18:46:17] [INFO:] Application Started.
+[2026-01-28 18:46:17] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:46:17] [INFO:] Initializing Renderer...
+[2026-01-28 18:46:18] [INFO:] Using Renderer API:
+[2026-01-28 18:46:18] [INFO:] Vulkan
+[2026-01-28 18:46:18] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 18:48:11] [INFO:] Application Started.
+[2026-01-28 18:48:11] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:48:11] [INFO:] Initializing Renderer...
+[2026-01-28 18:48:12] [INFO:] Using Renderer API:
+[2026-01-28 18:48:12] [INFO:] Vulkan
+[2026-01-28 18:48:12] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 18:53:49] [INFO:] Application Started.
+[2026-01-28 18:53:49] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:53:49] [INFO:] Initializing Renderer...
+[2026-01-28 18:53:49] [INFO:] Using Renderer API:
+[2026-01-28 18:53:49] [INFO:] Vulkan
+[2026-01-28 18:53:49] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 18:54:08] [INFO:] Application Started.
+[2026-01-28 18:54:08] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:54:08] [INFO:] Initializing Renderer...
+[2026-01-28 18:54:09] [INFO:] Using Renderer API:
+[2026-01-28 18:54:09] [INFO:] Vulkan
+[2026-01-28 18:54:09] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 18:54:50] [INFO:] Application Started.
+[2026-01-28 18:54:50] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:54:50] [INFO:] Initializing Renderer...
+[2026-01-28 18:54:51] [INFO:] Using Renderer API:
+[2026-01-28 18:54:51] [INFO:] Vulkan
+[2026-01-28 18:54:51] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj
+[2026-01-28 18:55:21] [INFO:] Application Started.
+[2026-01-28 18:55:21] [INFO:] ImGui Layer Initialized.
+[2026-01-28 18:55:21] [INFO:] Initializing Renderer...
+[2026-01-28 18:55:22] [INFO:] Using Renderer API:
+[2026-01-28 18:55:22] [INFO:] Vulkan
+[2026-01-28 18:55:22] [INFO:] Loaded model from file: ../LGE/assets/models/untitled.obj

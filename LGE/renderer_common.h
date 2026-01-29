@@ -2,10 +2,11 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
+
 struct Vertex
 {
 	glm::vec3 Position;
-	uint32_t Color;
+	glm::vec3 Color;
 	glm::vec3 Normal{};
 	glm::vec2 UV;
 

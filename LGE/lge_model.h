@@ -16,6 +16,7 @@
 #include <memory>
 #include <vector>
 
+
 namespace lge
 {
 	class LgeModel
@@ -24,7 +25,7 @@ namespace lge
 
 		struct Builder {
 			std::vector<Vertex> vertices{};
-			std::vector<uint32_t> indices{};
+			std::vector<uint16_t> indices{};
 
 			void loadModel(const std::string& filepath);
 		};
@@ -33,13 +34,16 @@ namespace lge
 		~LgeModel() {};
 
 		static std::unique_ptr<LgeModel> LoadModelFromFile(const std::string& filepath);
-		void Draw(glm::vec3 position, float rotation, uint32_t stencil, bgfx::UniformHandle uniform, bgfx::TextureHandle textureHandle, bgfx::ProgramHandle shaderProgram);
+		void Draw(glm::vec3 position, float rotation, glm::vec3 scale, uint32_t stencil, bgfx::UniformHandle uniform, bgfx::TextureHandle textureHandle, bgfx::ProgramHandle shaderProgram);
 		const std::vector<glm::vec3>& GetVertices() const { return m_Vertices; }
-		const std::vector<uint32_t>& GetIndices() const { return m_Indices; }
+		const std::vector<uint16_t>& GetIndices() const { return m_Indices; }
+
+		static std::unique_ptr<LgeModel> CreatePyramid();
+		//void DrawPyramid(glm::vec3 position, float rotation, uint32_t stencil, bgfx::UniformHandle uniform, bgfx::TextureHandle textureHandle, bgfx::ProgramHandle shaderProgram);
 
 	private:
 		std::vector<glm::vec3> m_Vertices;
-		std::vector<uint32_t> m_Indices;
+		std::vector<uint16_t> m_Indices;
 
 		bgfx::IndexBufferHandle m_IndexBuffer;
 		bgfx::VertexBufferHandle m_VertexBuffer;

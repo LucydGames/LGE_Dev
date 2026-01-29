@@ -44,6 +44,9 @@ int main()
 	glm::vec4 ClearColor = { 0.1f, 0.1f, 0.1f, 1.0f };
 	bool bRotate = false;
 
+	glm::vec3 modelPosition = { -100.0f, 50.0f, 500.0f };
+	glm::vec3 modelScale = { 200.0f, 200.0f, 200.0f };
+
 	std::shared_ptr<lge::LgeModel> model = lge::LgeModel::LoadModelFromFile("../LGE/assets/models/untitled.obj");
 
 	while (!Application.ShouldClose())
@@ -53,7 +56,7 @@ int main()
 
 		renderer.Begin();
 
-		model->Draw({ -100.0f, 50.0f, 500.0f }, rotation, renderer.m_Stencil, renderer.m_Uniform, renderer.m_WhiteImage->GetTextureHandle(), renderer.m_ShaderProgram->GetProgramHandle());
+		model->Draw(modelPosition, rotation, modelScale, renderer.m_Stencil, renderer.m_Uniform, renderer.m_WhiteImage->GetTextureHandle(), renderer.m_ShaderProgram->GetProgramHandle());
 		
 		renderer.DrawQuad({ -550.0f, 0.0f, 0.1f }, 0.0f, 0x7700ffff, { 1.0f, 1.0f, 1.0f }, 0);
 		renderer.DrawQuad({ -500.0f, 0.0f, 0.2f }, 0.0f, 0xffff00ff, { 1.0f, 1.0f, 1.0f }, 1);
@@ -91,6 +94,8 @@ int main()
 			uint32_t color = (a << 24) | (b << 16) | (g << 8) | r;
 			renderer.SetClearColor2D(color);
 		}
+		ImGui::InputFloat3("Model Position", glm::value_ptr(modelPosition));
+		ImGui::InputFloat3("Model Scale", glm::value_ptr(modelScale));
 		ImGui::End();
 		renderer.Render();
 		

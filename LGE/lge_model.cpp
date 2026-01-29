@@ -54,24 +54,32 @@ namespace lge
 			model->m_Vertices.push_back(vertex.Position);
 		}
 		model->m_Indices = std::move(builder.indices);
-		model->m_IndexBuffer = bgfx::createIndexBuffer(bgfx::copy(model->m_Indices.data(), model->m_Indices.size() * sizeof(uint32_t)));
+		model->m_IndexBuffer = bgfx::createIndexBuffer(bgfx::copy(model->m_Indices.data(), model->m_Indices.size() * sizeof(uint16_t))); // 
 		model->m_VertexLayout.begin()
 			.add(bgfx::Attrib::Position, 3, bgfx::AttribType::Float)
 			.add(bgfx::Attrib::Color0, 4, bgfx::AttribType::Uint8, true)
-			.add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Float)
+			.add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Float) // Add normal at some point
 			.end();
-		model->m_VertexBuffer = bgfx::createVertexBuffer(bgfx::copy(builder.vertices.data(), builder.vertices.size() * sizeof(Vertex)), model->m_VertexLayout);
-		Log::GetInstance().PrintInfo("Loaded model from file: " + filepath);
+		//Fixed stupid AI auto complete bug, Vertext buffer needs actual vertex data taken from struct Vertex.Position, not full data of Vertex struct which contains garbage data not init (Normals, color, etc)
+		model->m_VertexBuffer = bgfx::createVertexBuffer(bgfx::copy(model->m_Vertices.data(), model->m_Vertices.size() * sizeof(glm::vec3)), model->m_VertexLayout);
+		if (bgfx::isValid(model->m_IndexBuffer) == false)
+		{
+			Log::GetInstance().PrintWarning("Could not create model index buffer from file: " + filepath);
+		}
+		else
+		{
+			Log::GetInstance().PrintInfo("Loaded model from file: " + filepath);
+		}
 		return model;
 	}
 
-	void lge::LgeModel::Draw(glm::vec3 position, float rotation, uint32_t stencil, bgfx::UniformHandle uniform, bgfx::TextureHandle textureHandle, bgfx::ProgramHandle shaderProgram) // Shader Program should be set before calling this. Argument? Also Draw wont be handled by objects but by renderer/render system
+	void lge::LgeModel::Draw(glm::vec3 position, float rotation, glm::vec3 scale, uint32_t stencil, bgfx::UniformHandle uniform, bgfx::TextureHandle textureHandle, bgfx::ProgramHandle shaderProgram) // Shader Program should be set before calling this. Argument? Also Draw wont be handled by objects but by renderer/render system
 	{
 
 		glm::mat4 ModelMatrix = glm::mat4(1.0f); // Identity matrix for now
 		glm::mat4 Transform = glm::translate(ModelMatrix, position) * glm::rotate(ModelMatrix, glm::radians(rotation), glm::vec3(0.0f, 1.0f, 0.0f));
-		glm::vec3 Scale = glm::vec3(0.005f, 0.005f, 0.005f); // No dynamic scaling for now
-		//Transform = glm::scale(Transform, Scale);
+		//glm::vec3 Scale = glm::vec3(0.5f, 0.5f, 0.5f); // No dynamic scaling for now
+		Transform = glm::scale(Transform, scale);
 		bgfx::setState(BGFX_STATE_WRITE_RGB | BGFX_STATE_BLEND_ALPHA, BGFX_STATE_WRITE_Z | BGFX_STATE_DEPTH_TEST_LESS);
 		bgfx::setStencil(stencil);
 		bgfx::setTransform(glm::value_ptr(Transform));
@@ -81,4 +89,48 @@ namespace lge
 		bgfx::submit(THREE_D_VIEW, shaderProgram);
 		//bgfx::submit(THREE_D_VIEW, nullptr);
 	}
+	std::unique_ptr<LgeModel> LgeModel::CreatePyramid()
+	{
+		auto model = std::make_unique<LgeModel>();
+		uint16_t pyramidIndices[] =
+		{
+			0,1,2,  // Front
+			0,2,3,  // Right
+			0,3,4,  // Back
+			0,4,1,  // Left
+			1,4,3,  // Bottom
+			1,3,2,  // Bottom
+		};
+		model->m_IndexBuffer = bgfx::createIndexBuffer(
+			bgfx::copy(pyramidIndices, sizeof(pyramidIndices) * 2)
+		);
+
+		if (bgfx::isValid(model->m_IndexBuffer) == false)
+		{
+			Log::GetInstance().PrintWarning("Could not create pyramic index buffer");
+		}
+		else
+		{
+						Log::GetInstance().PrintInfo("Pyramid model created");
+		}
+		model->m_VertexLayout.begin()
+			.add(bgfx::Attrib::Position, 3, bgfx::AttribType::Float)
+			.add(bgfx::Attrib::Color0, 4, bgfx::AttribType::Uint8, true)
+			.add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Float)
+			.end();
+
+		Vertex2D pyramidVertices[] = {
+		{ {  0.0f,  50.0f,  0.0f}, 0xff0000ff  , { 0.0f, 0.0f }},
+		{ { -50.0f, -50.0f, 50.0f }, 0xff00ff00  , { 0.0f, 0.0f } },
+		{ { 50.0f, -50.0f,  50.0f }, 0xffff0000  , { 0.0f, 0.0f } },
+		{ { 50.0f, -50.0f, -50.0f }, 0xffffff00  , { 0.0f, 0.0f } },
+		{ { -50.0f, -50.0f, -50.0f }, 0xff00ffff  , { 0.0f, 0.0f } }
+		};
+
+		model->m_VertexBuffer = bgfx::createVertexBuffer(bgfx::copy(pyramidVertices, sizeof(pyramidVertices)), model->m_VertexLayout);
+		return model;
+	}
+	//void LgeModel::DrawPyramid(glm::vec3 position, float rotation, uint32_t stencil, bgfx::UniformHandle uniform, bgfx::TextureHandle textureHandle, bgfx::ProgramHandle shaderProgram)
+	//{
+	//}
 }

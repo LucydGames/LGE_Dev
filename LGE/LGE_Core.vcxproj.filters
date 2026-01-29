@@ -107,5 +107,8 @@
     <ClInclude Include="renderer_common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lge_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

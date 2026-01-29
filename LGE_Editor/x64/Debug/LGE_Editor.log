@@ -1,1 +1,23 @@
-﻿  LGE_Editor.vcxproj -> C:\source\LGE_Dev\x64\Debug\LGE_Editor.exe
+﻿  main.cpp
+LGE_Core.lib(bgfx.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(bgfx.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(renderer_noop.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(renderer_noop.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(renderer_agc.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(renderer_agc.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(renderer_d3d11.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(renderer_d3d11.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(renderer_d3d12.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(renderer_d3d12.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(renderer_gnm.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(renderer_gnm.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(renderer_nvn.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(renderer_nvn.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(renderer_gl.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(renderer_gl.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(renderer_vk.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(renderer_vk.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(vertexlayout.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(vertexlayout.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(topology.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(topology.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(shader_dxbc.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(shader_dxbc.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(debug_renderdoc.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(debug_renderdoc.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(nvapi.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(nvapi.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(dxgi.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(dxgi.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(glcontext_wgl.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(glcontext_wgl.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(shader.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(shader.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+LGE_Core.lib(shader_spirv.obj) : warning LNK4099: PDB 'bgfxDebug.pdb' was not found with 'LGE_Core.lib(shader_spirv.obj)' or at 'C:\source\LGE_Dev\x64\Debug\bgfxDebug.pdb'; linking object as if no debug info
+     Creating library C:\source\LGE_Dev\x64\Debug\LGE_Editor.lib and object C:\source\LGE_Dev\x64\Debug\LGE_Editor.exp
+main.obj : error LNK2019: unresolved external symbol "public: static class std::unique_ptr<class lge::LgeModel,struct std::default_delete<class lge::LgeModel> > __cdecl lge::LgeModel::LoadModelFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadModelFromFile@LgeModel@lge@@SA?AV?$unique_ptr@VLgeModel@lge@@U?$default_delete@VLgeModel@lge@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl lge::LgeModel::Draw(struct glm::vec<3,float,0>,float,struct glm::vec<3,float,0>,unsigned int,struct bgfx::UniformHandle,struct bgfx::TextureHandle,struct bgfx::ProgramHandle)" (?Draw@LgeModel@lge@@QEAAXU?$vec@$02M$0A@@glm@@M0IUUniformHandle@bgfx@@UTextureHandle@6@UProgramHandle@6@@Z) referenced in function main
+C:\source\LGE_Dev\x64\Debug\LGE_Editor.exe : fatal error LNK1120: 2 unresolved externals
