@@ -1,8 +1,8 @@
 ﻿     Creating library C:\source\LGE_Dev\x64\Release\LGE_Editor.lib and object C:\source\LGE_Dev\x64\Release\LGE_Editor.exp
   Generating code
-  6 of 5130 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+  5 of 5130 functions (<0.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    58 functions had inline decision re-evaluated but remain unchanged
+    59 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 LGE_Core.lib(bgfx.obj) : warning LNK4099: PDB 'bgfxRelease.pdb' was not found with 'LGE_Core.lib(bgfx.obj)' or at 'C:\source\LGE_Dev\x64\Release\bgfxRelease.pdb'; linking object as if no debug info
 LGE_Core.lib(vertexlayout.obj) : warning LNK4099: PDB 'bgfxRelease.pdb' was not found with 'LGE_Core.lib(vertexlayout.obj)' or at 'C:\source\LGE_Dev\x64\Release\bgfxRelease.pdb'; linking object as if no debug info

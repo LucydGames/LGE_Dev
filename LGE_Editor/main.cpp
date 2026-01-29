@@ -47,7 +47,7 @@ int main()
 	glm::vec3 modelPosition = { -100.0f, 50.0f, 500.0f };
 	glm::vec3 modelScale = { 200.0f, 200.0f, 200.0f };
 
-	std::shared_ptr<lge::LgeModel> model = lge::LgeModel::LoadModelFromFile("../LGE/assets/models/untitled.obj");
+	std::shared_ptr<lge::LgeModel> model = lge::LgeModel::LoadModelFromFile("../LGE/assets/models/TireRC_Mr.obj");
 
 	while (!Application.ShouldClose())
 	{

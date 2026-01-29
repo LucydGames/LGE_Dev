@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\source\\LGE_Dev\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\lge_model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\lge_model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D31906-7D15-4382-8C2F-D2EA694ED8FD}|LGE_Editor\\LGE_Editor.vcxproj|C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D31906-7D15-4382-8C2F-D2EA694ED8FD}|LGE_Editor\\LGE_Editor.vcxproj|solutionrelative:LGE_Editor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\lge_model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\lge_model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\lge_model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\lge_model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\lge_utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\lge_utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\renderer_common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\renderer_common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\renderer_common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\renderer_common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D31906-7D15-4382-8C2F-D2EA694ED8FD}|LGE_Editor\\LGE_Editor.vcxproj|C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D31906-7D15-4382-8C2F-D2EA694ED8FD}|LGE_Editor\\LGE_Editor.vcxproj|solutionrelative:LGE_Editor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\source\\LGE_Dev\\LGE\\bgfx\\include\\bgfx\\bgfx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -90,37 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "lge_utils.h",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\lge_utils.h",
-              "RelativeDocumentMoniker": "LGE\\lge_utils.h",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_utils.h",
-              "RelativeToolTip": "LGE\\lge_utils.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-29T01:51:58.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp",
-              "RelativeDocumentMoniker": "LGE_Editor\\main.cpp",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp",
-              "RelativeToolTip": "LGE_Editor\\main.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-09T00:24:04.34Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -132,12 +106,62 @@
               "RelativeToolTip": "LGE\\bgfx\\include\\bgfx\\bgfx.h",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAD4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-08T03:35:28.68Z",
+              "WhenOpened": "2026-01-08T03:35:28.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lge_model.cpp",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\lge_model.cpp",
+              "RelativeDocumentMoniker": "LGE\\lge_model.cpp",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_model.cpp",
+              "RelativeToolTip": "LGE\\lge_model.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAIcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-26T01:25:00.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lge_model.h",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\lge_model.h",
+              "RelativeDocumentMoniker": "LGE\\lge_model.h",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_model.h",
+              "RelativeToolTip": "LGE\\lge_model.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-25T23:47:21.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "lge_utils.h",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\lge_utils.h",
+              "RelativeDocumentMoniker": "LGE\\lge_utils.h",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_utils.h",
+              "RelativeToolTip": "LGE\\lge_utils.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-29T01:51:58.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp",
+              "RelativeDocumentMoniker": "LGE_Editor\\main.cpp",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp",
+              "RelativeToolTip": "LGE_Editor\\main.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-09T00:24:04.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "shader.h",
               "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\shader.h",
               "RelativeDocumentMoniker": "LGE\\shader.h",
@@ -145,34 +169,7 @@
               "RelativeToolTip": "LGE\\shader.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-28T09:33:40.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "lge_model.cpp",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\lge_model.cpp",
-              "RelativeDocumentMoniker": "LGE\\lge_model.cpp",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_model.cpp",
-              "RelativeToolTip": "LGE\\lge_model.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-26T01:25:00.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "lge_model.h",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\lge_model.h",
-              "RelativeDocumentMoniker": "LGE\\lge_model.h",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_model.h",
-              "RelativeToolTip": "LGE\\lge_model.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-25T23:47:21.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-28T09:33:40.027Z"
             },
             {
               "$type": "Document",
@@ -182,10 +179,9 @@
               "RelativeDocumentMoniker": "LGE\\renderer_common.h",
               "ToolTip": "C:\\source\\LGE_Dev\\LGE\\renderer_common.h",
               "RelativeToolTip": "LGE\\renderer_common.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-25T23:55:12.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T23:55:12.234Z"
             },
             {
               "$type": "Document",
@@ -241,16 +237,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "renderer.cpp",
               "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\renderer.cpp",
               "RelativeDocumentMoniker": "LGE\\renderer.cpp",
               "ToolTip": "C:\\source\\LGE_Dev\\LGE\\renderer.cpp",
               "RelativeToolTip": "LGE\\renderer.cpp",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFwAAAB3AAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAFwAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-08T03:32:17.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T03:32:17.544Z"
             },
             {
               "$type": "Document",
@@ -262,8 +257,7 @@
               "RelativeToolTip": "LGE\\renderer.h",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAE0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-08T03:37:44.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T03:37:44.171Z"
             },
             {
               "$type": "Document",

@@ -1,4 +1,5 @@
 #include "lge_model.h"
+#include "lge_utils.h"
 
 #define TINYOBJLOADER_IMPLEMENTATION
 
@@ -32,6 +33,25 @@ namespace lge
 					attrib.vertices[3 * index.vertex_index + 1],
 					attrib.vertices[3 * index.vertex_index + 2]
 				};
+				
+				vertex.Color = 
+				// convert vec3 to uint32_t Using vertex colors
+					//ConvertRGBToUInt32Color(attrib.colors[3 * index.vertex_index + 0], attrib.colors[3 * index.vertex_index + 1], attrib.colors[3 * index.vertex_index + 2])
+					//Use Normals as color
+					ConvertRGBToUInt32Color(attrib.normals[3 * index.normal_index + 0],
+				attrib.normals[3 * index.normal_index + 1],
+				attrib.normals[3 * index.normal_index + 2]);
+					// Or generate random color
+					//GenerateRandomUInt32_tColor()
+				
+				if (index.normal_index >= 0) {
+					vertex.Normal = {
+						attrib.normals[3 * index.normal_index + 0],
+						attrib.normals[3 * index.normal_index + 1],
+						attrib.normals[3 * index.normal_index + 2],
+					};
+				}
+
 				if (index.texcoord_index >= 0) {
 					vertex.UV = {
 						attrib.texcoords[2 * index.texcoord_index + 0],
@@ -39,7 +59,7 @@ namespace lge
 					};
 				}
 				vertices.push_back(vertex);
-				indices.push_back(static_cast<uint32_t>(indices.size()));
+				indices.push_back(static_cast<uint16_t>(indices.size()));
 			}
 		}
 	}
@@ -58,10 +78,12 @@ namespace lge
 		model->m_VertexLayout.begin()
 			.add(bgfx::Attrib::Position, 3, bgfx::AttribType::Float)
 			.add(bgfx::Attrib::Color0, 4, bgfx::AttribType::Uint8, true)
+			.add(bgfx::Attrib::Normal, 3, bgfx::AttribType::Float) // Add normal at some point
 			.add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Float) // Add normal at some point
 			.end();
 		//Fixed stupid AI auto complete bug, Vertext buffer needs actual vertex data taken from struct Vertex.Position, not full data of Vertex struct which contains garbage data not init (Normals, color, etc)
-		model->m_VertexBuffer = bgfx::createVertexBuffer(bgfx::copy(model->m_Vertices.data(), model->m_Vertices.size() * sizeof(glm::vec3)), model->m_VertexLayout);
+		//Vertex2D vertices[] = builder.vertices.data();
+		model->m_VertexBuffer = bgfx::createVertexBuffer(bgfx::copy(builder.vertices.data(), builder.vertices.size() * sizeof(Vertex)), model->m_VertexLayout);
 		if (bgfx::isValid(model->m_IndexBuffer) == false)
 		{
 			Log::GetInstance().PrintWarning("Could not create model index buffer from file: " + filepath);
@@ -80,7 +102,7 @@ namespace lge
 		glm::mat4 Transform = glm::translate(ModelMatrix, position) * glm::rotate(ModelMatrix, glm::radians(rotation), glm::vec3(0.0f, 1.0f, 0.0f));
 		//glm::vec3 Scale = glm::vec3(0.5f, 0.5f, 0.5f); // No dynamic scaling for now
 		Transform = glm::scale(Transform, scale);
-		bgfx::setState(BGFX_STATE_WRITE_RGB | BGFX_STATE_BLEND_ALPHA, BGFX_STATE_WRITE_Z | BGFX_STATE_DEPTH_TEST_LESS);
+		bgfx::setState(BGFX_STATE_WRITE_RGB | BGFX_STATE_BLEND_NORMAL, BGFX_STATE_WRITE_Z | BGFX_STATE_DEPTH_TEST_LESS);
 		bgfx::setStencil(stencil);
 		bgfx::setTransform(glm::value_ptr(Transform));
 		bgfx::setVertexBuffer(0, m_VertexBuffer);
@@ -111,7 +133,7 @@ namespace lge
 		}
 		else
 		{
-						Log::GetInstance().PrintInfo("Pyramid model created");
+			Log::GetInstance().PrintInfo("Pyramid model created");
 		}
 		model->m_VertexLayout.begin()
 			.add(bgfx::Attrib::Position, 3, bgfx::AttribType::Float)

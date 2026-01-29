@@ -16,6 +16,7 @@
 #include <memory>
 #include <vector>
 
+//TODO: Fix non initialized member variables have loadmodelfromfile call constructor and init buffers in constructor
 
 namespace lge
 {
