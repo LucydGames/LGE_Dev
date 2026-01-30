@@ -34,13 +34,11 @@ namespace lge
 					attrib.vertices[3 * index.vertex_index + 2]
 				};
 				
-				vertex.Color = 
+				vertex.Color = //0xff00ffff;
 				// convert vec3 to uint32_t Using vertex colors
 					//ConvertRGBToUInt32Color(attrib.colors[3 * index.vertex_index + 0], attrib.colors[3 * index.vertex_index + 1], attrib.colors[3 * index.vertex_index + 2])
 					//Use Normals as color
-					ConvertRGBToUInt32Color(attrib.normals[3 * index.normal_index + 0],
-				attrib.normals[3 * index.normal_index + 1],
-				attrib.normals[3 * index.normal_index + 2]);
+					ConvertRGBToUInt32Color(attrib.normals[3 * index.normal_index + 0], attrib.normals[3 * index.normal_index + 1], attrib.normals[3 * index.normal_index + 2]);
 					// Or generate random color
 					//GenerateRandomUInt32_tColor()
 				

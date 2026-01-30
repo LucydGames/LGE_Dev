@@ -35,7 +35,6 @@ int main()
 	renderer.InitializeImGui(UI_VIEW); // UI View
 	Log::GetInstance().PrintInfo("Using Renderer API:");
 	Log::GetInstance().PrintInfo(GetRenderApiName(renderer.GetRendererType())); // Format string to reduce lines
-	
 
 	Image* image = new Image("texture.png");
 	bool running = true;
@@ -44,7 +43,7 @@ int main()
 	glm::vec4 ClearColor = { 0.1f, 0.1f, 0.1f, 1.0f };
 	bool bRotate = false;
 
-	glm::vec3 modelPosition = { -100.0f, 50.0f, 500.0f };
+	glm::vec3 modelPosition = { 0.0f, 0.0f, 200.0f };
 	glm::vec3 modelScale = { 200.0f, 200.0f, 200.0f };
 
 	std::shared_ptr<lge::LgeModel> model = lge::LgeModel::LoadModelFromFile("../LGE/assets/models/TireRC_Mr.obj");

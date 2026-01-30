@@ -15,12 +15,14 @@ void Renderer::Initialize(SDL_Window* window, bgfx::RendererType::Enum RendererA
 	init.resolution.width = SCREEN_WIDTH;
 	init.resolution.height = SCREEN_HEIGHT;
 	init.type = RendererApiType;
+	init.vendorId = BGFX_PCI_ID_NONE;
 	init.platformData.nwh = SDL_GetPointerProperty(SDL_GetWindowProperties(window), SDL_PROP_WINDOW_WIN32_HWND_POINTER, nullptr);
 
 	if (bgfx::init(init) == false)
 	{
 		Log::GetInstance().PrintError("Could not initialize BGFX");
 	}
+	
 
 	std::vector<uint16_t> indices;
 
