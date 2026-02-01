@@ -34,5 +34,8 @@
 # Other
 *.html
 
-**/.vs/..
-**/x64/**
+**/.vs/
+**/.vs/LGE_DEV/
+**/x64/
+**/x64/Debug
+**/x64/Release

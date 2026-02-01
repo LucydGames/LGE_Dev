@@ -55,7 +55,7 @@ int main()
 
 		renderer.Begin();
 
-		model->Draw(modelPosition, rotation, modelScale, renderer.m_Stencil, renderer.m_Uniform, renderer.m_WhiteImage->GetTextureHandle(), renderer.m_ShaderProgram->GetProgramHandle());
+		model->Draw(modelPosition, rotation, modelScale, renderer.m_Stencil, renderer.m_Uniform, image->GetTextureHandle(), renderer.m_ShaderProgram->GetProgramHandle());
 		
 		renderer.DrawQuad({ -550.0f, 0.0f, 0.1f }, 0.0f, 0x7700ffff, { 1.0f, 1.0f, 1.0f }, 0);
 		renderer.DrawQuad({ -500.0f, 0.0f, 0.2f }, 0.0f, 0xffff00ff, { 1.0f, 1.0f, 1.0f }, 1);

@@ -2040,3 +2040,87 @@
 [2026-01-29 15:50:13] [INFO:] Using Renderer API:
 [2026-01-29 15:50:13] [INFO:] Vulkan
 [2026-01-29 15:50:13] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-30 14:13:03] [INFO:] Application Started.
+[2026-01-30 14:13:03] [INFO:] ImGui Layer Initialized.
+[2026-01-30 14:13:03] [INFO:] Initializing Renderer...
+[2026-01-30 14:13:03] [INFO:] Using Renderer API:
+[2026-01-30 14:13:03] [INFO:] Vulkan
+[2026-01-30 14:13:03] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-30 16:25:23] [INFO:] Application Started.
+[2026-01-30 16:25:23] [INFO:] ImGui Layer Initialized.
+[2026-01-30 16:25:23] [INFO:] Initializing Renderer...
+[2026-01-30 16:25:24] [INFO:] Using Renderer API:
+[2026-01-30 16:25:24] [INFO:] Vulkan
+[2026-01-30 16:25:24] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 01:30:42] [INFO:] Application Started.
+[2026-01-31 01:30:42] [INFO:] ImGui Layer Initialized.
+[2026-01-31 01:30:42] [INFO:] Initializing Renderer...
+[2026-01-31 01:30:42] [INFO:] Using Renderer API:
+[2026-01-31 01:30:42] [INFO:] Vulkan
+[2026-01-31 01:30:42] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 01:31:43] [INFO:] Application Started.
+[2026-01-31 01:31:43] [INFO:] ImGui Layer Initialized.
+[2026-01-31 01:31:43] [INFO:] Initializing Renderer...
+[2026-01-31 01:31:43] [INFO:] Using Renderer API:
+[2026-01-31 01:31:43] [INFO:] Vulkan
+[2026-01-31 01:31:43] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 01:55:03] [INFO:] Application Started.
+[2026-01-31 01:55:03] [INFO:] ImGui Layer Initialized.
+[2026-01-31 01:55:03] [INFO:] Initializing Renderer...
+[2026-01-31 01:55:03] [INFO:] Using Renderer API:
+[2026-01-31 01:55:03] [INFO:] Vulkan
+[2026-01-31 01:55:03] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 01:57:18] [INFO:] Application Started.
+[2026-01-31 01:57:18] [INFO:] ImGui Layer Initialized.
+[2026-01-31 01:57:18] [INFO:] Initializing Renderer...
+[2026-01-31 01:57:19] [INFO:] Using Renderer API:
+[2026-01-31 01:57:19] [INFO:] Vulkan
+[2026-01-31 01:57:19] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 01:58:26] [INFO:] Application Started.
+[2026-01-31 01:58:26] [INFO:] ImGui Layer Initialized.
+[2026-01-31 01:58:26] [INFO:] Initializing Renderer...
+[2026-01-31 01:58:27] [INFO:] Using Renderer API:
+[2026-01-31 01:58:27] [INFO:] Vulkan
+[2026-01-31 01:58:27] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 02:23:02] [INFO:] Application Started.
+[2026-01-31 02:23:02] [INFO:] ImGui Layer Initialized.
+[2026-01-31 02:23:02] [INFO:] Initializing Renderer...
+[2026-01-31 02:23:03] [INFO:] Using Renderer API:
+[2026-01-31 02:23:03] [INFO:] Vulkan
+[2026-01-31 02:23:03] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 15:02:48] [INFO:] Application Started.
+[2026-01-31 15:02:48] [INFO:] ImGui Layer Initialized.
+[2026-01-31 15:02:48] [INFO:] Initializing Renderer...
+[2026-01-31 15:02:49] [INFO:] Using Renderer API:
+[2026-01-31 15:02:49] [INFO:] Vulkan
+[2026-01-31 15:02:49] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 15:38:12] [INFO:] Application Started.
+[2026-01-31 15:38:12] [INFO:] ImGui Layer Initialized.
+[2026-01-31 15:38:12] [INFO:] Initializing Renderer...
+[2026-01-31 15:38:13] [INFO:] Using Renderer API:
+[2026-01-31 15:38:13] [INFO:] Vulkan
+[2026-01-31 15:38:13] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 15:39:57] [INFO:] Application Started.
+[2026-01-31 15:39:57] [INFO:] ImGui Layer Initialized.
+[2026-01-31 15:39:57] [INFO:] Initializing Renderer...
+[2026-01-31 15:39:58] [INFO:] Using Renderer API:
+[2026-01-31 15:39:58] [INFO:] Vulkan
+[2026-01-31 15:39:58] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 15:43:38] [INFO:] Application Started.
+[2026-01-31 15:43:38] [INFO:] ImGui Layer Initialized.
+[2026-01-31 15:43:38] [INFO:] Initializing Renderer...
+[2026-01-31 15:43:39] [INFO:] Using Renderer API:
+[2026-01-31 15:43:39] [INFO:] Vulkan
+[2026-01-31 15:43:39] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 15:45:07] [INFO:] Application Started.
+[2026-01-31 15:45:07] [INFO:] ImGui Layer Initialized.
+[2026-01-31 15:45:07] [INFO:] Initializing Renderer...
+[2026-01-31 15:45:08] [INFO:] Using Renderer API:
+[2026-01-31 15:45:08] [INFO:] Vulkan
+[2026-01-31 15:45:08] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-01-31 16:09:14] [INFO:] Application Started.
+[2026-01-31 16:09:14] [INFO:] ImGui Layer Initialized.
+[2026-01-31 16:09:14] [INFO:] Initializing Renderer...
+[2026-01-31 16:09:14] [INFO:] Using Renderer API:
+[2026-01-31 16:09:14] [INFO:] Vulkan
+[2026-01-31 16:09:14] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj

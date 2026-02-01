@@ -2,11 +2,25 @@
 #include "lge_utils.h"
 
 #define TINYOBJLOADER_IMPLEMENTATION
-
 #include "tiny_obj_loader.h"
+#define GLM_ENABLE_EXPERIMENTAL
+#include <glm/gtx/hash.hpp>
+
 #include <cstring>
 #include <stdexcept>
 #include <cassert>
+#include <unordered_map>
+
+namespace std {
+	template <>
+	struct hash<Vertex> {
+		size_t operator()(Vertex const& vertex) const {
+			size_t seed = 0;
+			lge::hashCombine(seed, vertex.Position, vertex.Color, vertex.Normal, vertex.UV);
+			return seed;
+		}
+	};
+}  // namespace std
 
 namespace lge
 {
@@ -20,10 +34,11 @@ namespace lge
 		{
 			throw std::runtime_error(warn + err);
 		}
-
+		//encodeNormalRgba8(0.0f, 0.0f, 1.0f)
 		vertices.clear();
 		indices.clear();
 
+		std::unordered_map<Vertex, uint32_t> uniqueVertices{};
 		for (const auto& shape : shapes) 
 		{
 			for (const auto& index : shape.mesh.indices) {
@@ -34,11 +49,11 @@ namespace lge
 					attrib.vertices[3 * index.vertex_index + 2]
 				};
 				
-				vertex.Color = //0xff00ffff;
+				vertex.Color = 0xffffffff;
 				// convert vec3 to uint32_t Using vertex colors
 					//ConvertRGBToUInt32Color(attrib.colors[3 * index.vertex_index + 0], attrib.colors[3 * index.vertex_index + 1], attrib.colors[3 * index.vertex_index + 2])
 					//Use Normals as color
-					ConvertRGBToUInt32Color(attrib.normals[3 * index.normal_index + 0], attrib.normals[3 * index.normal_index + 1], attrib.normals[3 * index.normal_index + 2]);
+					//EncodeRgbToUint32Color(attrib.normals[3 * index.normal_index + 0], attrib.normals[3 * index.normal_index + 1], attrib.normals[3 * index.normal_index + 2]);
 					// Or generate random color
 					//GenerateRandomUInt32_tColor()
 				
@@ -56,8 +71,11 @@ namespace lge
 						attrib.texcoords[2 * index.texcoord_index + 1]
 					};
 				}
-				vertices.push_back(vertex);
-				indices.push_back(static_cast<uint16_t>(indices.size()));
+				if (uniqueVertices.count(vertex) == 0) {
+					uniqueVertices[vertex] = static_cast<uint32_t>(vertices.size());
+					vertices.push_back(vertex);
+				}
+				indices.push_back(uniqueVertices[vertex]);
 			}
 		}
 	}
@@ -76,7 +94,7 @@ namespace lge
 		model->m_VertexLayout.begin()
 			.add(bgfx::Attrib::Position, 3, bgfx::AttribType::Float)
 			.add(bgfx::Attrib::Color0, 4, bgfx::AttribType::Uint8, true)
-			.add(bgfx::Attrib::Normal, 3, bgfx::AttribType::Float) // Add normal at some point
+			.add(bgfx::Attrib::Normal, 3, bgfx::AttribType::Float) 
 			.add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Float) // Add normal at some point
 			.end();
 		//Fixed stupid AI auto complete bug, Vertext buffer needs actual vertex data taken from struct Vertex.Position, not full data of Vertex struct which contains garbage data not init (Normals, color, etc)
