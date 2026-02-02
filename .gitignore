@@ -10,6 +10,7 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.ipch
 
 # Compiled Dynamic libraries
 *.so
@@ -39,3 +40,5 @@
 **/x64/
 **/x64/Debug
 **/x64/Release
+**/v17/
+**/v17/ipch/

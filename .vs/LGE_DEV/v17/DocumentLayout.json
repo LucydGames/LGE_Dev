@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\lge_model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\lge_camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\lge_camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\lge_model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\lge_model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\lge_utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,36 +27,16 @@
       "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\renderer_common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D31906-7D15-4382-8C2F-D2EA694ED8FD}|LGE_Editor\\LGE_Editor.vcxproj|C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D31906-7D15-4382-8C2F-D2EA694ED8FD}|LGE_Editor\\LGE_Editor.vcxproj|solutionrelative:LGE_Editor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\source\\LGE_Dev\\LGE\\bgfx\\include\\bgfx\\bgfx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LGE\\bgfx\\include\\bgfx\\bgfx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\meta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\meta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\imgui\\imgui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\imgui\\imgui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\imgui\\backends\\imgui_impl_sdl3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -59,8 +47,24 @@
       "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\imgui\\imgui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\imgui\\imgui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D31906-7D15-4382-8C2F-D2EA694ED8FD}|LGE_Editor\\LGE_Editor.vcxproj|C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D31906-7D15-4382-8C2F-D2EA694ED8FD}|LGE_Editor\\LGE_Editor.vcxproj|solutionrelative:LGE_Editor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\meta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\meta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\components.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -75,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\imgui\\backends\\imgui_impl_sdl3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\imgui\\backends\\imgui_impl_sdl3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|C:\\source\\LGE_Dev\\LGE\\imgui\\backends\\imgui_impl_bgfx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{51672D8E-1F60-4FB2-84CF-D5697F34438C}|LGE\\LGE_Core.vcxproj|solutionrelative:LGE\\imgui\\backends\\imgui_impl_bgfx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,7 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "lge_camera.h",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\lge_camera.h",
+              "RelativeDocumentMoniker": "LGE\\lge_camera.h",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_camera.h",
+              "RelativeToolTip": "LGE\\lge_camera.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-01T23:05:38.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "bgfx.h",
               "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\bgfx\\include\\bgfx\\bgfx.h",
               "RelativeDocumentMoniker": "LGE\\bgfx\\include\\bgfx\\bgfx.h",
@@ -106,7 +119,8 @@
               "RelativeToolTip": "LGE\\bgfx\\include\\bgfx\\bgfx.h",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAD4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-08T03:35:28.68Z"
+              "WhenOpened": "2026-01-08T03:35:28.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -116,117 +130,89 @@
               "RelativeDocumentMoniker": "LGE\\lge_model.cpp",
               "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_model.cpp",
               "RelativeToolTip": "LGE\\lge_model.cpp",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAH0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-26T01:25:00.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "lge_model.h",
               "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\lge_model.h",
               "RelativeDocumentMoniker": "LGE\\lge_model.h",
               "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_model.h",
               "RelativeToolTip": "LGE\\lge_model.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-01-25T23:47:21.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "lge_utils.h",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\lge_utils.h",
-              "RelativeDocumentMoniker": "LGE\\lge_utils.h",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_utils.h",
-              "RelativeToolTip": "LGE\\lge_utils.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-29T01:51:58.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "application.h",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\application.h",
-              "RelativeDocumentMoniker": "LGE\\application.h",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\application.h",
-              "RelativeToolTip": "LGE\\application.h",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-08T03:53:48.507Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp",
-              "RelativeDocumentMoniker": "LGE_Editor\\main.cpp",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp",
-              "RelativeToolTip": "LGE_Editor\\main.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-09T00:24:04.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "shader.h",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\shader.h",
-              "RelativeDocumentMoniker": "LGE\\shader.h",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\shader.h",
-              "RelativeToolTip": "LGE\\shader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-28T09:33:40.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "renderer_common.h",
               "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\renderer_common.h",
               "RelativeDocumentMoniker": "LGE\\renderer_common.h",
               "ToolTip": "C:\\source\\LGE_Dev\\LGE\\renderer_common.h",
               "RelativeToolTip": "LGE\\renderer_common.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-01-25T23:55:12.234Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "renderer.cpp",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\renderer.cpp",
+              "RelativeDocumentMoniker": "LGE\\renderer.cpp",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\renderer.cpp",
+              "RelativeToolTip": "LGE\\renderer.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF4AAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-08T03:32:17.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "components.h",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\components.h",
-              "RelativeDocumentMoniker": "LGE\\components.h",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\components.h",
-              "RelativeToolTip": "LGE\\components.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-15T05:26:59.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "scene.h",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\scene.h",
-              "RelativeDocumentMoniker": "LGE\\scene.h",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\scene.h",
-              "RelativeToolTip": "LGE\\scene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-15T05:44:20.907Z"
+              "DocumentIndex": 10,
+              "Title": "application.cpp",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\application.cpp",
+              "RelativeDocumentMoniker": "LGE\\application.cpp",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\application.cpp",
+              "RelativeToolTip": "LGE\\application.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-08T04:42:22.842Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "application.h",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\application.h",
+              "RelativeDocumentMoniker": "LGE\\application.h",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\application.h",
+              "RelativeToolTip": "LGE\\application.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-08T03:53:48.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "imgui_impl_sdl3.h",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\imgui\\backends\\imgui_impl_sdl3.h",
+              "RelativeDocumentMoniker": "LGE\\imgui\\backends\\imgui_impl_sdl3.h",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\imgui\\backends\\imgui_impl_sdl3.h",
+              "RelativeToolTip": "LGE\\imgui\\backends\\imgui_impl_sdl3.h",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-08T06:20:22.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "meta.h",
               "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\meta.h",
               "RelativeDocumentMoniker": "LGE\\meta.h",
@@ -238,31 +224,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "renderer.cpp",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\renderer.cpp",
-              "RelativeDocumentMoniker": "LGE\\renderer.cpp",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\renderer.cpp",
-              "RelativeToolTip": "LGE\\renderer.cpp",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "imgui.cpp",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\imgui\\imgui.cpp",
+              "RelativeDocumentMoniker": "LGE\\imgui\\imgui.cpp",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\imgui\\imgui.cpp",
+              "RelativeToolTip": "LGE\\imgui\\imgui.cpp",
+              "ViewState": "AgIAAF4BAAAAAAAAAAAvwHcBAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-08T03:32:17.544Z"
+              "WhenOpened": "2026-01-08T06:26:59.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
+              "Title": "scene.h",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\scene.h",
+              "RelativeDocumentMoniker": "LGE\\scene.h",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\scene.h",
+              "RelativeToolTip": "LGE\\scene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-15T05:44:20.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "renderer.h",
               "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\renderer.h",
               "RelativeDocumentMoniker": "LGE\\renderer.h",
               "ToolTip": "C:\\source\\LGE_Dev\\LGE\\renderer.h",
               "RelativeToolTip": "LGE\\renderer.h",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAE0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-08T03:37:44.171Z"
+              "WhenOpened": "2026-01-08T03:37:44.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "lge_utils.h",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\lge_utils.h",
+              "RelativeDocumentMoniker": "LGE\\lge_utils.h",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\lge_utils.h",
+              "RelativeToolTip": "LGE\\lge_utils.h",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-29T01:51:58.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "log.h",
               "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\log.h",
               "RelativeDocumentMoniker": "LGE\\log.h",
@@ -273,12 +285,52 @@
               "WhenOpened": "2026-01-09T02:25:54.58Z"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "components.h",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\components.h",
+              "RelativeDocumentMoniker": "LGE\\components.h",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\components.h",
+              "RelativeToolTip": "LGE\\components.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-15T05:26:59.798Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "shader.h",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\shader.h",
+              "RelativeDocumentMoniker": "LGE\\shader.h",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\shader.h",
+              "RelativeToolTip": "LGE\\shader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-28T09:33:40.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp",
+              "RelativeDocumentMoniker": "LGE_Editor\\main.cpp",
+              "ToolTip": "C:\\source\\LGE_Dev\\LGE_Editor\\main.cpp",
+              "RelativeToolTip": "LGE_Editor\\main.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-09T00:24:04.34Z"
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "log.cpp",
               "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\log.cpp",
               "RelativeDocumentMoniker": "LGE\\log.cpp",
@@ -287,30 +339,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-09T02:27:18.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "imgui_impl_sdl3.cpp",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\imgui\\backends\\imgui_impl_sdl3.cpp",
-              "RelativeDocumentMoniker": "LGE\\imgui\\backends\\imgui_impl_sdl3.cpp",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\imgui\\backends\\imgui_impl_sdl3.cpp",
-              "RelativeToolTip": "LGE\\imgui\\backends\\imgui_impl_sdl3.cpp",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-08T06:35:25.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "imgui.cpp",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\imgui\\imgui.cpp",
-              "RelativeDocumentMoniker": "LGE\\imgui\\imgui.cpp",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\imgui\\imgui.cpp",
-              "RelativeToolTip": "LGE\\imgui\\imgui.cpp",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAABgXAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-08T06:26:59.437Z"
             },
             {
               "$type": "Document",
@@ -323,30 +351,6 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-01-08T06:23:30.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "imgui_impl_sdl3.h",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\imgui\\backends\\imgui_impl_sdl3.h",
-              "RelativeDocumentMoniker": "LGE\\imgui\\backends\\imgui_impl_sdl3.h",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\imgui\\backends\\imgui_impl_sdl3.h",
-              "RelativeToolTip": "LGE\\imgui\\backends\\imgui_impl_sdl3.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-08T06:20:22.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "application.cpp",
-              "DocumentMoniker": "C:\\source\\LGE_Dev\\LGE\\application.cpp",
-              "RelativeDocumentMoniker": "LGE\\application.cpp",
-              "ToolTip": "C:\\source\\LGE_Dev\\LGE\\application.cpp",
-              "RelativeToolTip": "LGE\\application.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-08T04:42:22.842Z"
             }
           ]
         }

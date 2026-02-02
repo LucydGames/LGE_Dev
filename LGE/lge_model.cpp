@@ -118,7 +118,12 @@ namespace lge
 		glm::mat4 Transform = glm::translate(ModelMatrix, position) * glm::rotate(ModelMatrix, glm::radians(rotation), glm::vec3(0.0f, 1.0f, 0.0f));
 		//glm::vec3 Scale = glm::vec3(0.5f, 0.5f, 0.5f); // No dynamic scaling for now
 		Transform = glm::scale(Transform, scale);
-		bgfx::setState(BGFX_STATE_WRITE_RGB | BGFX_STATE_BLEND_NORMAL, BGFX_STATE_WRITE_Z | BGFX_STATE_DEPTH_TEST_LESS);
+		bgfx::setState(0
+			| BGFX_STATE_WRITE_RGB
+			| BGFX_STATE_WRITE_A
+			| BGFX_STATE_WRITE_Z
+			| BGFX_STATE_DEPTH_TEST_LESS
+			| BGFX_STATE_MSAA);
 		bgfx::setStencil(stencil);
 		bgfx::setTransform(glm::value_ptr(Transform));
 		bgfx::setVertexBuffer(0, m_VertexBuffer);
