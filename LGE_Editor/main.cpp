@@ -37,6 +37,7 @@ int main()
 	Log::GetInstance().PrintInfo(GetRenderApiName(renderer.GetRendererType())); // Format string to reduce lines
 
 	Image* image = new Image("texture.png");
+	Image* TireTexture = new Image("../LGE/assets/tex/hknife_Base_Color.png");
 	bool running = true;
 	float rotation = 0.0f;
 	glm::vec4 PostProcessColor = { 0.1f, 0.1f, 0.1f, 1.0f };
@@ -46,7 +47,7 @@ int main()
 	glm::vec3 modelPosition = { 0.0f, 0.0f, 200.0f };
 	glm::vec3 modelScale = { 200.0f, 200.0f, 200.0f };
 
-	std::shared_ptr<lge::LgeModel> model = lge::LgeModel::LoadModelFromFile("../LGE/assets/models/TireRC_Mr.obj");
+	std::shared_ptr<lge::LgeModel> model = lge::LgeModel::LoadModelFromFile("../LGE/assets/models/hknife.obj");
 
 	while (!Application.ShouldClose())
 	{
@@ -55,7 +56,7 @@ int main()
 
 		renderer.Begin();
 
-		model->Draw(modelPosition, rotation, modelScale, renderer.m_Stencil, renderer.m_Uniform, image->GetTextureHandle(), renderer.m_ShaderProgram->GetProgramHandle());
+		model->Draw(modelPosition, rotation, modelScale, renderer.m_Stencil, renderer.m_Uniform, TireTexture->GetTextureHandle(), renderer.m_ShaderProgram->GetProgramHandle());
 		
 		renderer.DrawQuad({ -550.0f, 0.0f, 0.1f }, 0.0f, 0x7700ffff, { 1.0f, 1.0f, 1.0f }, 0);
 		renderer.DrawQuad({ -500.0f, 0.0f, 0.2f }, 0.0f, 0xffff00ff, { 1.0f, 1.0f, 1.0f }, 1);

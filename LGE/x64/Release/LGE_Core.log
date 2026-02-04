@@ -1,10 +1,17 @@
 ﻿  application.cpp
 C:\source\LGE_Dev\LGE\application.cpp(6,14): warning C4804: '<': unsafe use of type 'bool' in operation
+  image.cpp
+  imgui_impl_bgfx.cpp
+  imgui_impl_sdl3.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
   lge_model.cpp
 C:\source\LGE_Dev\LGE\lge_model.cpp(93,110): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
 C:\source\LGE_Dev\LGE\lge_model.cpp(102,112): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
-C:\source\LGE_Dev\LGE\lge_model.cpp(121,85): warning C4305: 'argument': truncation from 'unsigned __int64' to 'uint32_t'
-C:\source\LGE_Dev\LGE\lge_model.cpp(121,85): warning C4309: 'argument': truncation of constant value
+  log.cpp
   renderer.cpp
 C:\source\LGE_Dev\LGE\renderer.cpp(41,84): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
 C:\source\LGE_Dev\LGE\renderer.cpp(55,99): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
@@ -14,4 +21,7 @@ C:\source\LGE_Dev\LGE\renderer.cpp(173,43): warning C4267: '=': conversion from 
 C:\source\LGE_Dev\LGE\renderer.cpp(207,94): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
 C:\source\LGE_Dev\LGE\renderer.cpp(220,86): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
 C:\source\LGE_Dev\LGE\renderer.cpp(222,94): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+  shader.cpp
+C:\source\LGE_Dev\LGE\shader.cpp(34,79): warning C4244: 'argument': conversion from 'std::streamsize' to 'uint32_t', possible loss of data
+  frame_buffer.cpp
   LGE_Core.vcxproj -> C:\source\LGE_Dev\x64\Release\LGE_Core.lib

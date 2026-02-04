@@ -20,10 +20,10 @@ namespace lge {
 
 	uint32_t EncodeRgbaToUint32Color(float r, float g, float b, float a)
 	{
-		uint8_t convR = static_cast<uint8_t>(r * 255.0f);
-		uint8_t convG = static_cast<uint8_t>(g * 255.0f);
-		uint8_t convB = static_cast<uint8_t>(b * 255.0f);
-		uint8_t ConvA = static_cast<uint8_t>(a * 255.0f);
+		uint8_t convR = static_cast<uint8_t>(bx::clamp(r, 0.0f, 1.0f) * 255.0f);
+		uint8_t convG = static_cast<uint8_t>(bx::clamp(g, 0.0f, 1.0f) * 255.0f);
+		uint8_t convB = static_cast<uint8_t>(bx::clamp(b, 0.0f, 1.0f) * 255.0f);
+		uint8_t ConvA = static_cast<uint8_t>(bx::clamp(a, 0.0f, 1.0f) * 255.0f);
 		return (ConvA << 24) | (convB << 16) | (convG << 8) | convR;
 	};
 
@@ -155,4 +155,12 @@ namespace lge {
 
 		delete[] tangents;
 	}
+
+	int16_t ScalarToSNorm16(float _value)
+	{
+		int32_t result = static_cast<int32_t>(bx::clamp(_value, -1.0f, 1.0f) * 32767.0f + 0.5f);
+		return static_cast<int16_t>(result);
+	}
+
+
 }  // namespace lge

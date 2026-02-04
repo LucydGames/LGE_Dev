@@ -16,7 +16,7 @@ namespace std {
 	struct hash<Vertex> {
 		size_t operator()(Vertex const& vertex) const {
 			size_t seed = 0;
-			lge::hashCombine(seed, vertex.Position, vertex.Color, vertex.Normal, vertex.UV);
+			lge::hashCombine(seed, vertex.Position, vertex.Color, vertex.Normal, vertex.U, vertex.V);
 			return seed;
 		}
 	};
@@ -34,7 +34,7 @@ namespace lge
 		{
 			throw std::runtime_error(warn + err);
 		}
-		//encodeNormalRgba8(0.0f, 0.0f, 1.0f)
+		
 		vertices.clear();
 		indices.clear();
 
@@ -59,16 +59,16 @@ namespace lge
 				
 				if (index.normal_index >= 0) {
 					vertex.Normal = {
-						attrib.normals[3 * index.normal_index + 0],
-						attrib.normals[3 * index.normal_index + 1],
-						attrib.normals[3 * index.normal_index + 2],
+						encodeNormalRgba8(attrib.normals[3 * index.normal_index + 0], attrib.normals[3 * index.normal_index + 1], attrib.normals[3 * index.normal_index + 2])
 					};
 				}
 
 				if (index.texcoord_index >= 0) {
-					vertex.UV = {
-						attrib.texcoords[2 * index.texcoord_index + 0],
-						attrib.texcoords[2 * index.texcoord_index + 1]
+					vertex.U = {
+						ScalarToSNorm16(attrib.texcoords[2 * index.texcoord_index + 0]) //try using int format like bgfx examples
+					};
+					vertex.V = {
+						ScalarToSNorm16(1.0f - attrib.texcoords[2 * index.texcoord_index + 1])
 					};
 				}
 				if (uniqueVertices.count(vertex) == 0) {
@@ -94,8 +94,8 @@ namespace lge
 		model->m_VertexLayout.begin()
 			.add(bgfx::Attrib::Position, 3, bgfx::AttribType::Float)
 			.add(bgfx::Attrib::Color0, 4, bgfx::AttribType::Uint8, true)
-			.add(bgfx::Attrib::Normal, 3, bgfx::AttribType::Float) 
-			.add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Float) // Add normal at some point
+			.add(bgfx::Attrib::Normal, 4, bgfx::AttribType::Uint8, true, true)
+			.add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Int16, true, true) // Add normal at some point
 			.end();
 		//Fixed stupid AI auto complete bug, Vertext buffer needs actual vertex data taken from struct Vertex.Position, not full data of Vertex struct which contains garbage data not init (Normals, color, etc)
 		//Vertex2D vertices[] = builder.vertices.data();
@@ -118,12 +118,7 @@ namespace lge
 		glm::mat4 Transform = glm::translate(ModelMatrix, position) * glm::rotate(ModelMatrix, glm::radians(rotation), glm::vec3(0.0f, 1.0f, 0.0f));
 		//glm::vec3 Scale = glm::vec3(0.5f, 0.5f, 0.5f); // No dynamic scaling for now
 		Transform = glm::scale(Transform, scale);
-		bgfx::setState(0
-			| BGFX_STATE_WRITE_RGB
-			| BGFX_STATE_WRITE_A
-			| BGFX_STATE_WRITE_Z
-			| BGFX_STATE_DEPTH_TEST_LESS
-			| BGFX_STATE_MSAA);
+		bgfx::setState(0 | BGFX_STATE_WRITE_RGB | BGFX_STATE_WRITE_A | BGFX_STATE_WRITE_Z | BGFX_STATE_DEPTH_TEST_LESS | BGFX_STATE_MSAA);
 		bgfx::setStencil(stencil);
 		bgfx::setTransform(glm::value_ptr(Transform));
 		bgfx::setVertexBuffer(0, m_VertexBuffer);

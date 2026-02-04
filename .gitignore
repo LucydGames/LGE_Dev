@@ -35,10 +35,6 @@
 # Other
 *.html
 
-**/.vs/
-**/.vs/LGE_DEV/
-**/x64/
-**/x64/Debug
-**/x64/Release
-**/v17/
-**/v17/ipch/
+**/.vs/**
+**/x64/**
+

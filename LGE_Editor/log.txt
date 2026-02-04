@@ -2130,3 +2130,135 @@
 [2026-02-01 16:03:36] [INFO:] Using Renderer API:
 [2026-02-01 16:03:36] [INFO:] Vulkan
 [2026-02-01 16:03:36] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-01 16:29:10] [INFO:] Application Started.
+[2026-02-01 16:29:10] [INFO:] ImGui Layer Initialized.
+[2026-02-01 16:29:10] [INFO:] Initializing Renderer...
+[2026-02-01 16:29:11] [INFO:] Using Renderer API:
+[2026-02-01 16:29:11] [INFO:] Vulkan
+[2026-02-01 16:29:11] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-01 16:35:57] [INFO:] Application Started.
+[2026-02-01 16:35:57] [INFO:] ImGui Layer Initialized.
+[2026-02-01 16:35:57] [INFO:] Initializing Renderer...
+[2026-02-01 16:35:57] [INFO:] Using Renderer API:
+[2026-02-01 16:35:57] [INFO:] Vulkan
+[2026-02-01 16:35:57] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-01 16:57:03] [INFO:] Application Started.
+[2026-02-01 16:57:03] [INFO:] ImGui Layer Initialized.
+[2026-02-01 16:57:03] [INFO:] Initializing Renderer...
+[2026-02-01 16:57:04] [INFO:] Using Renderer API:
+[2026-02-01 16:57:04] [INFO:] Vulkan
+[2026-02-01 16:57:04] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-01 16:57:41] [INFO:] Application Started.
+[2026-02-01 16:57:41] [INFO:] ImGui Layer Initialized.
+[2026-02-01 16:57:41] [INFO:] Initializing Renderer...
+[2026-02-01 16:57:42] [INFO:] Using Renderer API:
+[2026-02-01 16:57:42] [INFO:] Vulkan
+[2026-02-01 16:57:42] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-01 17:00:45] [INFO:] Application Started.
+[2026-02-01 17:00:45] [INFO:] ImGui Layer Initialized.
+[2026-02-01 17:00:45] [INFO:] Initializing Renderer...
+[2026-02-01 17:00:46] [INFO:] Using Renderer API:
+[2026-02-01 17:00:46] [INFO:] Vulkan
+[2026-02-01 17:00:46] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-01 17:03:24] [INFO:] Application Started.
+[2026-02-01 17:03:24] [INFO:] ImGui Layer Initialized.
+[2026-02-01 17:03:24] [INFO:] Initializing Renderer...
+[2026-02-01 17:03:24] [INFO:] Using Renderer API:
+[2026-02-01 17:03:24] [INFO:] Vulkan
+[2026-02-01 17:03:24] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-01 17:05:19] [INFO:] Application Started.
+[2026-02-01 17:05:19] [INFO:] ImGui Layer Initialized.
+[2026-02-01 17:05:19] [INFO:] Initializing Renderer...
+[2026-02-01 17:05:20] [INFO:] Using Renderer API:
+[2026-02-01 17:05:20] [INFO:] Vulkan
+[2026-02-01 17:05:20] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-02 14:39:04] [INFO:] Application Started.
+[2026-02-02 14:39:04] [INFO:] ImGui Layer Initialized.
+[2026-02-02 14:39:04] [INFO:] Initializing Renderer...
+[2026-02-02 14:39:04] [INFO:] Using Renderer API:
+[2026-02-02 14:39:04] [INFO:] Vulkan
+[2026-02-02 14:39:05] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-02 14:57:33] [INFO:] Application Started.
+[2026-02-02 14:57:33] [INFO:] ImGui Layer Initialized.
+[2026-02-02 14:57:33] [INFO:] Initializing Renderer...
+[2026-02-02 14:57:34] [INFO:] Using Renderer API:
+[2026-02-02 14:57:34] [INFO:] Vulkan
+[2026-02-02 14:57:34] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-02 15:02:16] [INFO:] Application Started.
+[2026-02-02 15:02:16] [INFO:] ImGui Layer Initialized.
+[2026-02-02 15:02:16] [INFO:] Initializing Renderer...
+[2026-02-02 15:02:16] [INFO:] Using Renderer API:
+[2026-02-02 15:02:16] [INFO:] Vulkan
+[2026-02-02 15:02:16] [INFO:] Loaded model from file: ../LGE/assets/models/TireRC_Mr.obj
+[2026-02-04 03:28:00] [INFO:] Application Started.
+[2026-02-04 03:28:00] [INFO:] ImGui Layer Initialized.
+[2026-02-04 03:28:00] [INFO:] Initializing Renderer...
+[2026-02-04 03:28:01] [INFO:] Using Renderer API:
+[2026-02-04 03:28:01] [INFO:] Vulkan
+[2026-02-04 03:28:01] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 03:29:51] [INFO:] Application Started.
+[2026-02-04 03:29:51] [INFO:] ImGui Layer Initialized.
+[2026-02-04 03:29:51] [INFO:] Initializing Renderer...
+[2026-02-04 03:29:51] [INFO:] Using Renderer API:
+[2026-02-04 03:29:51] [INFO:] Vulkan
+[2026-02-04 03:29:51] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 03:54:27] [INFO:] Application Started.
+[2026-02-04 03:54:27] [INFO:] ImGui Layer Initialized.
+[2026-02-04 03:54:27] [INFO:] Initializing Renderer...
+[2026-02-04 03:54:27] [INFO:] Using Renderer API:
+[2026-02-04 03:54:27] [INFO:] Vulkan
+[2026-02-04 03:54:27] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 03:55:51] [INFO:] Application Started.
+[2026-02-04 03:55:51] [INFO:] ImGui Layer Initialized.
+[2026-02-04 03:55:51] [INFO:] Initializing Renderer...
+[2026-02-04 03:55:51] [INFO:] Using Renderer API:
+[2026-02-04 03:55:51] [INFO:] Vulkan
+[2026-02-04 03:55:51] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 03:56:20] [INFO:] Application Started.
+[2026-02-04 03:56:20] [INFO:] ImGui Layer Initialized.
+[2026-02-04 03:56:20] [INFO:] Initializing Renderer...
+[2026-02-04 03:56:20] [INFO:] Using Renderer API:
+[2026-02-04 03:56:20] [INFO:] Vulkan
+[2026-02-04 03:56:20] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 03:57:01] [INFO:] Application Started.
+[2026-02-04 03:57:01] [INFO:] ImGui Layer Initialized.
+[2026-02-04 03:57:01] [INFO:] Initializing Renderer...
+[2026-02-04 03:57:01] [INFO:] Using Renderer API:
+[2026-02-04 03:57:01] [INFO:] Vulkan
+[2026-02-04 03:57:01] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 03:57:30] [INFO:] Application Started.
+[2026-02-04 03:57:30] [INFO:] ImGui Layer Initialized.
+[2026-02-04 03:57:30] [INFO:] Initializing Renderer...
+[2026-02-04 03:57:30] [INFO:] Using Renderer API:
+[2026-02-04 03:57:30] [INFO:] Vulkan
+[2026-02-04 03:57:30] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 03:58:28] [INFO:] Application Started.
+[2026-02-04 03:58:28] [INFO:] ImGui Layer Initialized.
+[2026-02-04 03:58:28] [INFO:] Initializing Renderer...
+[2026-02-04 03:58:29] [INFO:] Using Renderer API:
+[2026-02-04 03:58:29] [INFO:] Vulkan
+[2026-02-04 03:58:29] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 04:00:24] [INFO:] Application Started.
+[2026-02-04 04:00:24] [INFO:] ImGui Layer Initialized.
+[2026-02-04 04:00:24] [INFO:] Initializing Renderer...
+[2026-02-04 04:00:24] [INFO:] Using Renderer API:
+[2026-02-04 04:00:24] [INFO:] Vulkan
+[2026-02-04 04:00:24] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 04:00:47] [INFO:] Application Started.
+[2026-02-04 04:00:47] [INFO:] ImGui Layer Initialized.
+[2026-02-04 04:00:47] [INFO:] Initializing Renderer...
+[2026-02-04 04:00:48] [INFO:] Using Renderer API:
+[2026-02-04 04:00:48] [INFO:] Vulkan
+[2026-02-04 04:00:48] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 04:01:08] [INFO:] Application Started.
+[2026-02-04 04:01:08] [INFO:] ImGui Layer Initialized.
+[2026-02-04 04:01:08] [INFO:] Initializing Renderer...
+[2026-02-04 04:01:09] [INFO:] Using Renderer API:
+[2026-02-04 04:01:09] [INFO:] Vulkan
+[2026-02-04 04:01:09] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 04:14:58] [INFO:] Application Started.
+[2026-02-04 04:14:58] [INFO:] ImGui Layer Initialized.
+[2026-02-04 04:14:58] [INFO:] Initializing Renderer...
+[2026-02-04 04:14:58] [INFO:] Using Renderer API:
+[2026-02-04 04:14:58] [INFO:] Vulkan
+[2026-02-04 04:14:58] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
