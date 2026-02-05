@@ -56,7 +56,7 @@ int main()
 	bool bRotate = false;
 
 	glm::vec3 modelPosition = { -0.5f, -1.0f, 1.0f };
-	glm::vec3 modelScale = { 1.0f, 1.0f, 1.0f };
+	glm::vec3 modelScale = { 0.8f, 0.8f, 0.8f };
 
 	std::shared_ptr<lge::LgeModel> model = lge::LgeModel::LoadModelFromFile("../LGE/assets/models/hknife.obj");
 
@@ -70,6 +70,9 @@ int main()
 	float light1PosX = -1.0f;
 	float light2PosX = 0.0f;
 	float light3PosX = 0.0f;
+	bool lightReverse1 = false;
+	bool lightReverse2 = false;
+	bool lightReverse3 = false;
 
 	while (!Application.ShouldClose())
 	{
@@ -87,11 +90,11 @@ int main()
 		for (uint32_t ii = 0; ii < numLights; ++ii)
 		{
 			if (ii == 0)
-				lightPosRadius[ii][0] = light1PosX += 0.01f;
+				lightPosRadius[ii][0] = light1PosX += lightReverse1 ? -0.01f : 0.01f;
 			else if (ii == 1)
-				lightPosRadius[ii][0] = light2PosX += 0.01f;
+				lightPosRadius[ii][0] = light2PosX += lightReverse2 ? -0.01f : 0.01f;
 			else if (ii == 2)
-				lightPosRadius[ii][0] = light3PosX += 0.01f;
+				lightPosRadius[ii][0] = light3PosX += lightReverse3 ? -0.01f : 0.01f;
 			//lightPosRadius[ii][0] = 1.0f;
 			
 			lightPosRadius[ii][2] = 0.5f;
@@ -160,11 +163,18 @@ int main()
 			rotation += 1.0f;
 		rotation = std::fmod(rotation, 360.0f);
 		if (light1PosX > 1.0f)
-			light1PosX = -1.0f;
+			lightReverse1 = true;
 		if (light2PosX > 1.0f)
-			light2PosX = -1.0f;
+			lightReverse2 = true;
 		if (light3PosX > 1.0f)
-			light3PosX = -1.0f;
+			lightReverse3 = true;
+
+		if (light1PosX < -1.0f)
+			lightReverse1 = false;
+		if (light2PosX < -1.0f)
+			lightReverse2 = false;
+		if (light3PosX < -1.0f)
+			lightReverse3 = false;
 	}
 
 	//Application.ImGuiLayer.Shutdown(); // create layer Shutdown function in Application
