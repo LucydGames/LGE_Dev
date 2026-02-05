@@ -5,6 +5,7 @@
 
 #include <bgfx/bgfx.h>
 
+
 #include "renderer_common.h"
 #include "meta.h"
 #include "log.h"
@@ -16,6 +17,7 @@
 #include <string>
 #include <memory>
 #include <vector>
+
 
 //TODO: Fix non initialized member variables have loadmodelfromfile call constructor and init buffers in constructor
 
@@ -36,7 +38,7 @@ namespace lge
 		~LgeModel() {};
 
 		static std::unique_ptr<LgeModel> LoadModelFromFile(const std::string& filepath);
-		void Draw(glm::vec3 position, float rotation, glm::vec3 scale, uint32_t stencil, bgfx::UniformHandle uniform, bgfx::TextureHandle textureHandle, bgfx::ProgramHandle shaderProgram);
+		void Draw(glm::vec3 position, float rotation, glm::vec3 scale, bgfx::TextureHandle baseColor, bgfx::TextureHandle normal, bgfx::ProgramHandle shaderProgram);
 		const std::vector<glm::vec3>& GetVertices() const { return m_Vertices; }
 		const std::vector<uint16_t>& GetIndices() const { return m_Indices; }
 
@@ -50,6 +52,9 @@ namespace lge
 		bgfx::IndexBufferHandle m_IndexBuffer;
 		bgfx::VertexBufferHandle m_VertexBuffer;
 		bgfx::VertexLayout m_VertexLayout;
+
+		bgfx::UniformHandle m_Uniform_TexColor;
+		bgfx::UniformHandle m_Uniform_TexNormal;
 	};
 }
 

@@ -18,7 +18,7 @@ namespace lge {
 		(hashCombine(seed, rest), ...);
 	};
 
-	uint32_t EncodeRgbaToUint32Color(float r, float g, float b, float a)
+	inline uint32_t EncodeRgbaToUint32Color(float r, float g, float b, float a)
 	{
 		uint8_t convR = static_cast<uint8_t>(bx::clamp(r, 0.0f, 1.0f) * 255.0f);
 		uint8_t convG = static_cast<uint8_t>(bx::clamp(g, 0.0f, 1.0f) * 255.0f);
@@ -27,12 +27,12 @@ namespace lge {
 		return (ConvA << 24) | (convB << 16) | (convG << 8) | convR;
 	};
 
-	uint32_t EncodeRgbToUint32Color(float r, float g, float b)
+	inline uint32_t EncodeRgbToUint32Color(float r, float g, float b)
 	{
 		return EncodeRgbaToUint32Color(r, g, b, 1.0f);
 	};
 
-	uint32_t GenerateRandomUInt32_tColor()
+	inline uint32_t GenerateRandomUInt32_tColor()
 	{
 		unsigned int min = 0;
 		unsigned int max = 255;
@@ -59,7 +59,7 @@ namespace lge {
 		return dst;
 	}
 
-	void calcTangents(void* _vertices, uint16_t _numVertices, bgfx::VertexLayout _layout, const uint16_t* _indices, uint32_t _numIndices)
+	inline void calcTangents(void* _vertices, uint16_t _numVertices, bgfx::VertexLayout _layout, const uint16_t* _indices, uint32_t _numIndices)
 	{
 		struct PosTexcoord
 		{
@@ -156,7 +156,35 @@ namespace lge {
 		delete[] tangents;
 	}
 
-	int16_t ScalarToSNorm16(float _value)
+	inline void CalculateTangents(std::vector<Vertex>& _vertices, const std::vector<uint16_t>& _indices)
+	{
+		for (uint32_t i = 0; i < _indices.size(); i += 3)
+		{
+			Vertex& v0 = _vertices[_indices[i + 0]];
+			Vertex& v1 = _vertices[_indices[i + 1]];
+			Vertex& v2 = _vertices[_indices[i + 2]];
+			glm::vec3 edge1 = v1.Position - v0.Position;
+			glm::vec3 edge2 = v2.Position - v0.Position;
+			float deltaU1 = static_cast<float>(v1.U - v0.U);
+			float deltaV1 = static_cast<float>(v1.V - v0.V);
+			float deltaU2 = static_cast<float>(v2.U - v0.U);
+			float deltaV2 = static_cast<float>(v2.V - v0.V);
+			float f = 1.0f / (deltaU1 * deltaV2 - deltaU2 * deltaV1);
+			glm::vec3 tangent;
+			tangent.x = f * (deltaV2 * edge1.x - deltaV1 * edge2.x);
+			tangent.y = f * (deltaV2 * edge1.y - deltaV1 * edge2.y);
+			tangent.z = f * (deltaV2 * edge1.z - deltaV1 * edge2.z);
+			tangent = glm::normalize(tangent);
+			// Store the tangent in the vertex (you may need to adjust this based on your Vertex structure)
+			// Here we assume that the Tangent is stored as a uint32_t in a packed format
+			uint32_t packedTangent = encodeNormalRgba8(tangent.x, tangent.y, tangent.z, 0.0f);
+			v0.Tangent = packedTangent;
+			v1.Tangent = packedTangent;
+			v2.Tangent = packedTangent;
+		}
+	}
+
+	inline int16_t ScalarToSNorm16(float _value)
 	{
 		int32_t result = static_cast<int32_t>(bx::clamp(_value, -1.0f, 1.0f) * 32767.0f + 0.5f);
 		return static_cast<int16_t>(result);

@@ -123,13 +123,13 @@ void Renderer::Begin()
 	m_Vertices.clear();
 	m_RenderBatches.clear();
 
-	bgfx::setViewClear(THREE_D_VIEW, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, 0x00ffffff);
+	bgfx::setViewClear(THREE_D_VIEW, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, ClearColor3d);
 	bgfx::setViewRect(THREE_D_VIEW, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
 	bgfx::setViewTransform(THREE_D_VIEW, glm::value_ptr(m_View), glm::value_ptr(m_PerspectiveProjection));
 	bgfx::setViewFrameBuffer(THREE_D_VIEW, m_FrameBuffer->GetFrameBufferHandle());
 
 	bgfx::setViewRect(TWO_D_VIEW, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
-	bgfx::setViewClear(TWO_D_VIEW, BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, 0x00FFFFFF);
+	bgfx::setViewClear(TWO_D_VIEW, BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, ClearColor2d);
 	bgfx::setViewTransform(TWO_D_VIEW, glm::value_ptr(m_View), glm::value_ptr(m_Projection));
 	bgfx::setViewFrameBuffer(TWO_D_VIEW, m_FrameBuffer->GetFrameBufferHandle());
 
@@ -210,7 +210,13 @@ void Renderer::SetPostProcessColor(uint32_t color)
 void Renderer::SetClearColor2D(uint32_t color)
 {
 	ClearColor2d = color;
-	bgfx::setViewClear(TWO_D_VIEW, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, ClearColor2d);
+	//bgfx::setViewClear(TWO_D_VIEW, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, ClearColor2d);
+}
+
+void Renderer::SetClearColor3D(uint32_t color)
+{
+	ClearColor3d = color;
+	//bgfx::setViewClear(THREE_D_VIEW, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH | BGFX_CLEAR_STENCIL, ClearColor3d);
 }
 
 void Renderer::Render()

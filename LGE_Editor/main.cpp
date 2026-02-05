@@ -1,3 +1,10 @@
+//#include <bx/bx.h> //temp
+#define BX_CONFIG_DEBUG 1
+#include <bx/math.h> // temp
+
+//#include <bx/pixelformat.h> // temp
+ //#include <ctime>
+
 #include "renderer.h"
 #include "application.h"
 #include "imgui.h"
@@ -6,6 +13,8 @@
 #include "glm/gtc/type_ptr.hpp"
 #include "lge_model.h"
 #include "log.h"
+
+#include "lge_utils.h"
 
 #define LGE_EDITOR_BUILD
 
@@ -31,23 +40,36 @@ int main()
 	}
 
 	Renderer renderer;
-	renderer.Initialize(Application.GetMainWindow(), bgfx::RendererType::Vulkan);
+	renderer.Initialize(Application.GetMainWindow(), bgfx::RendererType::Count);
 	renderer.InitializeImGui(UI_VIEW); // UI View
 	Log::GetInstance().PrintInfo("Using Renderer API:");
 	Log::GetInstance().PrintInfo(GetRenderApiName(renderer.GetRendererType())); // Format string to reduce lines
 
 	Image* image = new Image("texture.png");
 	Image* TireTexture = new Image("../LGE/assets/tex/hknife_Base_Color.png");
+	Image* TireNormal = new Image("../LGE/assets/tex/hknife_Normal.png");
 	bool running = true;
 	float rotation = 0.0f;
 	glm::vec4 PostProcessColor = { 0.1f, 0.1f, 0.1f, 1.0f };
 	glm::vec4 ClearColor = { 0.1f, 0.1f, 0.1f, 1.0f };
+	glm::vec4 ClearColor3D = { 0.2f, 0.2f, 0.2f, 1.0f };
 	bool bRotate = false;
 
-	glm::vec3 modelPosition = { 0.0f, 0.0f, 200.0f };
-	glm::vec3 modelScale = { 200.0f, 200.0f, 200.0f };
+	glm::vec3 modelPosition = { -0.5f, -1.0f, 1.0f };
+	glm::vec3 modelScale = { 1.0f, 1.0f, 1.0f };
 
 	std::shared_ptr<lge::LgeModel> model = lge::LgeModel::LoadModelFromFile("../LGE/assets/models/hknife.obj");
+
+	ShaderProgram* modelShaderProgram = new ShaderProgram("../LGE/vs_bumpd3d.bin", "../LGE/fs_bumpd3d.bin");
+
+	constexpr uint16_t numLights = 3;
+	bgfx::UniformHandle u_lightPosRadius = bgfx::createUniform("u_lightPosRadius", bgfx::UniformType::Vec4, numLights);
+	bgfx::UniformHandle u_lightRgbInnerR = bgfx::createUniform("u_lightRgbInnerR", bgfx::UniformType::Vec4, numLights);
+	float lightPosRadius[numLights][4];
+	glm::vec4 lightRgbInnerR[numLights];
+	float light1PosX = -1.0f;
+	float light2PosX = 0.0f;
+	float light3PosX = 0.0f;
 
 	while (!Application.ShouldClose())
 	{
@@ -56,7 +78,38 @@ int main()
 
 		renderer.Begin();
 
-		model->Draw(modelPosition, rotation, modelScale, renderer.m_Stencil, renderer.m_Uniform, TireTexture->GetTextureHandle(), renderer.m_ShaderProgram->GetProgramHandle());
+		lightPosRadius[0][1] = 1.0f;
+		lightPosRadius[1][1] = 0.0f;
+		lightPosRadius[2][1] = -1.0f;
+		
+		lightPosRadius[3][1] = 0.0f; // center white light
+
+		for (uint32_t ii = 0; ii < numLights; ++ii)
+		{
+			if (ii == 0)
+				lightPosRadius[ii][0] = light1PosX += 0.01f;
+			else if (ii == 1)
+				lightPosRadius[ii][0] = light2PosX += 0.01f;
+			else if (ii == 2)
+				lightPosRadius[ii][0] = light3PosX += 0.01f;
+			//lightPosRadius[ii][0] = 1.0f;
+			
+			lightPosRadius[ii][2] = 0.5f;
+			lightPosRadius[ii][3] = 2.0f;
+		}
+		lightPosRadius[3][2] = 0.0f; // I KNOW I KNOW, REWRITE REDUNDANT
+		lightPosRadius[3][3] = 3.0f; // I KNOW I KNOW, REWRITE REDUNDANT
+		
+		lightRgbInnerR[0] = glm::vec4(1.0f, 0.5f, 5.0f, 0.1f);
+		lightRgbInnerR[1] = glm::vec4(0.5f, 1.0f, 0.5f, 0.1f);
+		lightRgbInnerR[2] = glm::vec4(0.5f, 0.5f, 1.0f, 0.1f);
+		lightRgbInnerR[3] = glm::vec4(1.0f, 1.0f, 1.0f, 0.01f);
+		
+
+		bgfx::setUniform(u_lightPosRadius, lightPosRadius, numLights); // move to main
+		bgfx::setUniform(u_lightRgbInnerR, lightRgbInnerR, numLights); // move to main
+
+		model->Draw(modelPosition, rotation, modelScale, TireTexture->GetTextureHandle(), TireNormal->GetTextureHandle(), modelShaderProgram->GetProgramHandle());
 		
 		renderer.DrawQuad({ -550.0f, 0.0f, 0.1f }, 0.0f, 0x7700ffff, { 1.0f, 1.0f, 1.0f }, 0);
 		renderer.DrawQuad({ -500.0f, 0.0f, 0.2f }, 0.0f, 0xffff00ff, { 1.0f, 1.0f, 1.0f }, 1);
@@ -94,6 +147,10 @@ int main()
 			uint32_t color = (a << 24) | (b << 16) | (g << 8) | r;
 			renderer.SetClearColor2D(color);
 		}
+		if (ImGui::ColorEdit4("Clear Color3d", glm::value_ptr(ClearColor3D)) == true)
+		{
+			renderer.SetClearColor3D(lge::EncodeRgbaToUint32Color(ClearColor3D.r, ClearColor3D.g, ClearColor3D.b, ClearColor3D.a));
+		}
 		ImGui::InputFloat3("Model Position", glm::value_ptr(modelPosition));
 		ImGui::InputFloat3("Model Scale", glm::value_ptr(modelScale));
 		ImGui::End();
@@ -102,6 +159,12 @@ int main()
 		if (bRotate)
 			rotation += 1.0f;
 		rotation = std::fmod(rotation, 360.0f);
+		if (light1PosX > 1.0f)
+			light1PosX = -1.0f;
+		if (light2PosX > 1.0f)
+			light2PosX = -1.0f;
+		if (light3PosX > 1.0f)
+			light3PosX = -1.0f;
 	}
 
 	//Application.ImGuiLayer.Shutdown(); // create layer Shutdown function in Application

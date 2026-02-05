@@ -131,7 +131,8 @@
       <AdditionalDependencies>bgfxDebug.lib;bxDebug.lib;bimgDebug.lib;freetype.lib;SDL3.lib;$(CoreLibraryDependencies);%(AdditionalDependencies);bgfxDebug.lib;bxDebug.lib;freetype.lib;SDL3.lib</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>call $(ProjectDir)build_shaders.bat</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
     <Lib>
       <AdditionalLibraryDirectories>$(ProjectDir)freetype-2.14.1\objs\x64\Release Static;$(ProjectDir)SDL3-3.2.24\lib\x64;$(ProjectDir)bgfx\.build\win64_vs2022\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -190,7 +191,8 @@
       <AdditionalDependencies>bgfxDebug.lib;bxDebug.lib;bimgDebug.lib;freetype.lib;SDL3.lib;bgfxRelease.lib;bxRelease.lib;bimgRelease.lib;freetype.lib;SDL3.lib;%(AdditionalDependencies);bgfxDebug.lib;bxDebug.lib;freetype.lib;SDL3.lib</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>call $(ProjectDir)build_shaders.bat</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
     <Lib>
       <AdditionalLibraryDirectories>$(ProjectDir)freetype-2.14.1\objs\x64\Release Static;$(ProjectDir)SDL3-3.2.24\lib\x64;$(ProjectDir)bgfx\.build\win64_vs2022\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>

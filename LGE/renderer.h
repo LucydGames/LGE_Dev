@@ -44,6 +44,7 @@ public:
 	void DisableStencil();
 	void SetPostProcessColor(uint32_t color);
 	void SetClearColor2D(uint32_t color); //Make conversion from glm vec4 to uint32_t internally in function, todo
+	void SetClearColor3D(uint32_t color);
 	void Render();
 	void Shutdown();
 
@@ -78,6 +79,7 @@ private:
 	glm::mat4 m_PerspectiveProjection;
 
 	uint32_t ClearColor2d = 0x00FFFFFF;
+	uint32_t ClearColor3d = 0x000000FF;
 
 	bool bImGuiInitialized = false;
 };

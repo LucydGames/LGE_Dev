@@ -93,16 +93,21 @@ namespace lge
 		model->m_IndexBuffer = bgfx::createIndexBuffer(bgfx::copy(model->m_Indices.data(), model->m_Indices.size() * sizeof(uint16_t))); // 
 		model->m_VertexLayout.begin()
 			.add(bgfx::Attrib::Position, 3, bgfx::AttribType::Float)
-			.add(bgfx::Attrib::Color0, 4, bgfx::AttribType::Uint8, true)
+			.add(bgfx::Attrib::Color0, 4, bgfx::AttribType::Uint8, true) // Seems as if bgfx reads colors as individual rgba Uint8 values, which can be packed into uint32_t
 			.add(bgfx::Attrib::Normal, 4, bgfx::AttribType::Uint8, true, true)
-			.add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Int16, true, true) // Add normal at some point
+			.add(bgfx::Attrib::Tangent, 4, bgfx::AttribType::Uint8, true, true)
+			.add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Int16, true, true) 
 			.end();
-		//Fixed stupid AI auto complete bug, Vertext buffer needs actual vertex data taken from struct Vertex.Position, not full data of Vertex struct which contains garbage data not init (Normals, color, etc)
-		//Vertex2D vertices[] = builder.vertices.data();
+		CalculateTangents(builder.vertices, model->m_Indices);
 		model->m_VertexBuffer = bgfx::createVertexBuffer(bgfx::copy(builder.vertices.data(), builder.vertices.size() * sizeof(Vertex)), model->m_VertexLayout);
-		if (bgfx::isValid(model->m_IndexBuffer) == false)
+		model->m_Uniform_TexColor = bgfx::createUniform("s_texColor", bgfx::UniformType::Sampler);
+		model->m_Uniform_TexNormal = bgfx::createUniform("s_texNormal", bgfx::UniformType::Sampler);
+
+		
+
+		if (!bgfx::isValid(model->m_IndexBuffer) || !bgfx::isValid(model->m_VertexBuffer))
 		{
-			Log::GetInstance().PrintWarning("Could not create model index buffer from file: " + filepath);
+			Log::GetInstance().PrintWarning("Could not create model buffers from file: " + filepath);
 		}
 		else
 		{
@@ -111,7 +116,7 @@ namespace lge
 		return model;
 	}
 
-	void lge::LgeModel::Draw(glm::vec3 position, float rotation, glm::vec3 scale, uint32_t stencil, bgfx::UniformHandle uniform, bgfx::TextureHandle textureHandle, bgfx::ProgramHandle shaderProgram) // Shader Program should be set before calling this. Argument? Also Draw wont be handled by objects but by renderer/render system
+	void lge::LgeModel::Draw(glm::vec3 position, float rotation, glm::vec3 scale, bgfx::TextureHandle baseColor, bgfx::TextureHandle normal, bgfx::ProgramHandle shaderProgram) // Shader Program should be set before calling this. Argument? Also Draw wont be handled by objects but by renderer/render system
 	{
 
 		glm::mat4 ModelMatrix = glm::mat4(1.0f); // Identity matrix for now
@@ -119,11 +124,15 @@ namespace lge
 		//glm::vec3 Scale = glm::vec3(0.5f, 0.5f, 0.5f); // No dynamic scaling for now
 		Transform = glm::scale(Transform, scale);
 		bgfx::setState(0 | BGFX_STATE_WRITE_RGB | BGFX_STATE_WRITE_A | BGFX_STATE_WRITE_Z | BGFX_STATE_DEPTH_TEST_LESS | BGFX_STATE_MSAA);
-		bgfx::setStencil(stencil);
+		bgfx::setStencil(BGFX_STENCIL_NONE);
 		bgfx::setTransform(glm::value_ptr(Transform));
 		bgfx::setVertexBuffer(0, m_VertexBuffer);
 		bgfx::setIndexBuffer(m_IndexBuffer);
-		bgfx::setTexture(0, uniform, textureHandle);
+		bgfx::setTexture(0, m_Uniform_TexColor, baseColor);
+		bgfx::setTexture(1, m_Uniform_TexNormal, normal);
+		
+		
+
 		bgfx::submit(THREE_D_VIEW, shaderProgram);
 		//bgfx::submit(THREE_D_VIEW, nullptr);
 	}

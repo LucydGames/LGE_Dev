@@ -108,9 +108,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\source\LGE_Dev\LGE\stb;C:\source\LGE_Dev\LGE\SDL3-3.2.24\include;C:\source\LGE_Dev\LGE\freetype-2.14.1\include;C:\source\LGE_Dev\LGE\glm;C:\source\LGE_Dev\LGE\imgui\backends;C:\source\LGE_Dev\LGE\imgui;C:\source\LGE_Dev\LGE\bimg\include;C:\source\LGE_Dev\LGE\bgfx\include;C:\source\LGE_Dev\LGE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\source\LGE_Dev\LGE\bx\include;C:\source\LGE_Dev\LGE\stb;C:\source\LGE_Dev\LGE\SDL3-3.2.24\include;C:\source\LGE_Dev\LGE\freetype-2.14.1\include;C:\source\LGE_Dev\LGE\glm;C:\source\LGE_Dev\LGE\imgui\backends;C:\source\LGE_Dev\LGE\imgui;C:\source\LGE_Dev\LGE\bimg\include;C:\source\LGE_Dev\LGE\bgfx\include;C:\source\LGE_Dev\LGE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp23</LanguageStandard>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/Zc:__cplusplus  /Zc:preprocessor %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -144,9 +145,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)LGE\stb;$(SolutionDir)LGE\SDL3-3.2.24\include;$(SolutionDir)LGE\freetype-2.14.1\include;$(SolutionDir)LGE\glm;$(SolutionDir)LGE\imgui\backends;$(SolutionDir)LGE\imgui;$(SolutionDir)LGE\bimg\include;$(SolutionDir)LGE\bgfx\include;$(SolutionDir)LGE_Dev\LGE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\source\LGE_Dev\LGE\bx\include;$(SolutionDir)LGE\stb;$(SolutionDir)LGE\SDL3-3.2.24\include;$(SolutionDir)LGE\freetype-2.14.1\include;$(SolutionDir)LGE\glm;$(SolutionDir)LGE\imgui\backends;$(SolutionDir)LGE\imgui;$(SolutionDir)LGE\bimg\include;$(SolutionDir)LGE\bgfx\include;$(SolutionDir)LGE_Dev\LGE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp23</LanguageStandard>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/Zc:__cplusplus  /Zc:preprocessor %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

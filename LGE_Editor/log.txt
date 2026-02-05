@@ -2262,3 +2262,501 @@
 [2026-02-04 04:14:58] [INFO:] Using Renderer API:
 [2026-02-04 04:14:58] [INFO:] Vulkan
 [2026-02-04 04:14:58] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 14:57:09] [INFO:] Application Started.
+[2026-02-04 14:57:09] [INFO:] ImGui Layer Initialized.
+[2026-02-04 14:57:09] [INFO:] Initializing Renderer...
+[2026-02-04 14:57:10] [INFO:] Using Renderer API:
+[2026-02-04 14:57:10] [INFO:] Vulkan
+[2026-02-04 14:57:10] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 15:00:56] [INFO:] Application Started.
+[2026-02-04 15:00:56] [INFO:] ImGui Layer Initialized.
+[2026-02-04 15:00:56] [INFO:] Initializing Renderer...
+[2026-02-04 15:00:56] [INFO:] Using Renderer API:
+[2026-02-04 15:00:56] [INFO:] Vulkan
+[2026-02-04 15:00:56] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 15:57:26] [INFO:] Application Started.
+[2026-02-04 15:57:26] [INFO:] ImGui Layer Initialized.
+[2026-02-04 15:57:26] [INFO:] Initializing Renderer...
+[2026-02-04 15:57:26] [INFO:] Using Renderer API:
+[2026-02-04 15:57:26] [INFO:] Vulkan
+[2026-02-04 15:57:27] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 17:24:17] [INFO:] Application Started.
+[2026-02-04 17:24:17] [INFO:] ImGui Layer Initialized.
+[2026-02-04 17:24:17] [INFO:] Initializing Renderer...
+[2026-02-04 17:24:18] [INFO:] Using Renderer API:
+[2026-02-04 17:24:18] [INFO:] Vulkan
+[2026-02-04 17:24:18] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 17:27:09] [INFO:] Application Started.
+[2026-02-04 17:27:09] [INFO:] ImGui Layer Initialized.
+[2026-02-04 17:27:09] [INFO:] Initializing Renderer...
+[2026-02-04 17:27:10] [INFO:] Using Renderer API:
+[2026-02-04 17:27:10] [INFO:] Vulkan
+[2026-02-04 17:27:10] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 17:29:28] [INFO:] Application Started.
+[2026-02-04 17:29:28] [INFO:] ImGui Layer Initialized.
+[2026-02-04 17:29:28] [INFO:] Initializing Renderer...
+[2026-02-04 17:29:29] [INFO:] Using Renderer API:
+[2026-02-04 17:29:29] [INFO:] Vulkan
+[2026-02-04 17:29:29] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 17:30:29] [INFO:] Application Started.
+[2026-02-04 17:30:29] [INFO:] ImGui Layer Initialized.
+[2026-02-04 17:30:29] [INFO:] Initializing Renderer...
+[2026-02-04 18:10:12] [INFO:] Application Started.
+[2026-02-04 18:10:12] [INFO:] ImGui Layer Initialized.
+[2026-02-04 18:10:12] [INFO:] Initializing Renderer...
+[2026-02-04 18:10:13] [INFO:] Using Renderer API:
+[2026-02-04 18:10:13] [INFO:] Vulkan
+[2026-02-04 18:10:13] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 18:12:51] [INFO:] Application Started.
+[2026-02-04 18:12:51] [INFO:] ImGui Layer Initialized.
+[2026-02-04 18:12:51] [INFO:] Initializing Renderer...
+[2026-02-04 18:12:51] [INFO:] Using Renderer API:
+[2026-02-04 18:12:51] [INFO:] Vulkan
+[2026-02-04 18:12:51] [WARNING:] Could not create model index buffer from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 19:07:25] [INFO:] Application Started.
+[2026-02-04 19:07:25] [INFO:] ImGui Layer Initialized.
+[2026-02-04 19:07:25] [INFO:] Initializing Renderer...
+[2026-02-04 19:07:26] [INFO:] Using Renderer API:
+[2026-02-04 19:07:26] [INFO:] Vulkan
+[2026-02-04 19:07:26] [WARNING:] Could not create model index buffer from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 19:37:37] [INFO:] Application Started.
+[2026-02-04 19:37:37] [INFO:] ImGui Layer Initialized.
+[2026-02-04 19:37:37] [INFO:] Initializing Renderer...
+[2026-02-04 19:38:14] [INFO:] Application Started.
+[2026-02-04 19:38:14] [INFO:] ImGui Layer Initialized.
+[2026-02-04 19:38:14] [INFO:] Initializing Renderer...
+[2026-02-04 19:43:02] [INFO:] Application Started.
+[2026-02-04 19:43:02] [INFO:] ImGui Layer Initialized.
+[2026-02-04 19:43:02] [INFO:] Initializing Renderer...
+[2026-02-04 19:53:19] [INFO:] Application Started.
+[2026-02-04 19:53:19] [INFO:] ImGui Layer Initialized.
+[2026-02-04 19:53:19] [INFO:] Initializing Renderer...
+[2026-02-04 19:53:56] [INFO:] Application Started.
+[2026-02-04 19:53:56] [INFO:] ImGui Layer Initialized.
+[2026-02-04 19:53:56] [INFO:] Initializing Renderer...
+[2026-02-04 19:55:03] [INFO:] Application Started.
+[2026-02-04 19:55:03] [INFO:] ImGui Layer Initialized.
+[2026-02-04 19:55:03] [INFO:] Initializing Renderer...
+[2026-02-04 19:56:02] [INFO:] Application Started.
+[2026-02-04 19:56:02] [INFO:] ImGui Layer Initialized.
+[2026-02-04 19:56:02] [INFO:] Initializing Renderer...
+[2026-02-04 19:57:19] [INFO:] Application Started.
+[2026-02-04 19:57:19] [INFO:] ImGui Layer Initialized.
+[2026-02-04 19:57:19] [INFO:] Initializing Renderer...
+[2026-02-04 19:58:09] [INFO:] Application Started.
+[2026-02-04 19:58:09] [INFO:] ImGui Layer Initialized.
+[2026-02-04 19:58:09] [INFO:] Initializing Renderer...
+[2026-02-04 20:00:13] [INFO:] Application Started.
+[2026-02-04 20:00:13] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:00:13] [INFO:] Initializing Renderer...
+[2026-02-04 20:01:02] [INFO:] Application Started.
+[2026-02-04 20:01:02] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:01:02] [INFO:] Initializing Renderer...
+[2026-02-04 20:01:02] [INFO:] Using Renderer API:
+[2026-02-04 20:01:02] [INFO:] Direct3D11
+[2026-02-04 20:01:02] [WARNING:] Could not create model index buffer from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:01:42] [INFO:] Application Started.
+[2026-02-04 20:01:42] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:01:42] [INFO:] Initializing Renderer...
+[2026-02-04 20:01:42] [INFO:] Using Renderer API:
+[2026-02-04 20:01:42] [INFO:] Direct3D11
+[2026-02-04 20:01:42] [WARNING:] Could not create model index buffer from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:07:03] [INFO:] Application Started.
+[2026-02-04 20:07:03] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:07:03] [INFO:] Initializing Renderer...
+[2026-02-04 20:07:03] [INFO:] Using Renderer API:
+[2026-02-04 20:07:03] [INFO:] Direct3D11
+[2026-02-04 20:07:03] [WARNING:] Could not create model index buffer from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:09:43] [INFO:] Application Started.
+[2026-02-04 20:09:43] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:09:43] [INFO:] Initializing Renderer...
+[2026-02-04 20:09:43] [INFO:] Using Renderer API:
+[2026-02-04 20:09:43] [INFO:] Direct3D11
+[2026-02-04 20:09:43] [WARNING:] Could not create model index buffer from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:10:54] [INFO:] Application Started.
+[2026-02-04 20:10:54] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:10:54] [INFO:] Initializing Renderer...
+[2026-02-04 20:10:54] [INFO:] Using Renderer API:
+[2026-02-04 20:10:54] [INFO:] Direct3D11
+[2026-02-04 20:10:54] [WARNING:] Could not create model index buffer from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:12:46] [INFO:] Application Started.
+[2026-02-04 20:12:46] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:12:46] [INFO:] Initializing Renderer...
+[2026-02-04 20:12:46] [INFO:] Using Renderer API:
+[2026-02-04 20:12:46] [INFO:] Direct3D11
+[2026-02-04 20:12:46] [WARNING:] Could not create model buffers from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:20:19] [INFO:] Application Started.
+[2026-02-04 20:20:19] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:20:19] [INFO:] Initializing Renderer...
+[2026-02-04 20:20:19] [INFO:] Using Renderer API:
+[2026-02-04 20:20:19] [INFO:] Direct3D11
+[2026-02-04 20:20:19] [WARNING:] Could not create model buffers from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:37:30] [INFO:] Application Started.
+[2026-02-04 20:37:30] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:37:30] [INFO:] Initializing Renderer...
+[2026-02-04 20:37:31] [INFO:] Using Renderer API:
+[2026-02-04 20:37:31] [INFO:] Direct3D11
+[2026-02-04 20:37:31] [WARNING:] Could not create model buffers from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:43:05] [INFO:] Application Started.
+[2026-02-04 20:43:05] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:43:05] [INFO:] Initializing Renderer...
+[2026-02-04 20:43:06] [INFO:] Using Renderer API:
+[2026-02-04 20:43:06] [INFO:] Direct3D11
+[2026-02-04 20:43:06] [WARNING:] Could not create model buffers from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:54:18] [INFO:] Application Started.
+[2026-02-04 20:54:18] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:54:18] [INFO:] Initializing Renderer...
+[2026-02-04 20:54:43] [INFO:] Application Started.
+[2026-02-04 20:54:43] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:54:43] [INFO:] Initializing Renderer...
+[2026-02-04 20:54:44] [INFO:] Using Renderer API:
+[2026-02-04 20:54:44] [INFO:] Direct3D11
+[2026-02-04 20:54:44] [WARNING:] Could not create model buffers from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:56:58] [INFO:] Application Started.
+[2026-02-04 20:56:58] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:56:58] [INFO:] Initializing Renderer...
+[2026-02-04 20:56:58] [INFO:] Using Renderer API:
+[2026-02-04 20:56:58] [INFO:] Direct3D11
+[2026-02-04 20:56:58] [WARNING:] Could not create model buffers from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:57:49] [INFO:] Application Started.
+[2026-02-04 20:57:49] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:57:49] [INFO:] Initializing Renderer...
+[2026-02-04 20:57:50] [INFO:] Using Renderer API:
+[2026-02-04 20:57:50] [INFO:] Direct3D11
+[2026-02-04 20:57:50] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 20:59:40] [INFO:] Application Started.
+[2026-02-04 20:59:40] [INFO:] ImGui Layer Initialized.
+[2026-02-04 20:59:40] [INFO:] Initializing Renderer...
+[2026-02-04 20:59:41] [INFO:] Using Renderer API:
+[2026-02-04 20:59:41] [INFO:] Direct3D11
+[2026-02-04 20:59:41] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:01:45] [INFO:] Application Started.
+[2026-02-04 21:01:45] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:01:45] [INFO:] Initializing Renderer...
+[2026-02-04 21:01:45] [INFO:] Using Renderer API:
+[2026-02-04 21:01:45] [INFO:] Direct3D11
+[2026-02-04 21:01:45] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:06:01] [INFO:] Application Started.
+[2026-02-04 21:06:01] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:06:01] [INFO:] Initializing Renderer...
+[2026-02-04 21:06:01] [INFO:] Using Renderer API:
+[2026-02-04 21:06:01] [INFO:] Direct3D11
+[2026-02-04 21:06:01] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:06:16] [INFO:] Application Started.
+[2026-02-04 21:06:16] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:06:16] [INFO:] Initializing Renderer...
+[2026-02-04 21:06:16] [INFO:] Using Renderer API:
+[2026-02-04 21:06:16] [INFO:] Direct3D11
+[2026-02-04 21:06:16] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:10:44] [INFO:] Application Started.
+[2026-02-04 21:10:44] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:10:44] [INFO:] Initializing Renderer...
+[2026-02-04 21:10:44] [INFO:] Using Renderer API:
+[2026-02-04 21:10:44] [INFO:] Direct3D11
+[2026-02-04 21:10:44] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:11:37] [INFO:] Application Started.
+[2026-02-04 21:11:37] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:11:37] [INFO:] Initializing Renderer...
+[2026-02-04 21:11:38] [INFO:] Using Renderer API:
+[2026-02-04 21:11:38] [INFO:] Direct3D11
+[2026-02-04 21:11:38] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:12:50] [INFO:] Application Started.
+[2026-02-04 21:12:50] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:12:50] [INFO:] Initializing Renderer...
+[2026-02-04 21:12:50] [INFO:] Using Renderer API:
+[2026-02-04 21:12:50] [INFO:] Direct3D11
+[2026-02-04 21:12:50] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:13:36] [INFO:] Application Started.
+[2026-02-04 21:13:36] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:13:36] [INFO:] Initializing Renderer...
+[2026-02-04 21:13:36] [INFO:] Using Renderer API:
+[2026-02-04 21:13:36] [INFO:] Direct3D11
+[2026-02-04 21:13:36] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:16:46] [INFO:] Application Started.
+[2026-02-04 21:16:46] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:16:46] [INFO:] Initializing Renderer...
+[2026-02-04 21:16:46] [INFO:] Using Renderer API:
+[2026-02-04 21:16:46] [INFO:] Direct3D11
+[2026-02-04 21:16:46] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:17:50] [INFO:] Application Started.
+[2026-02-04 21:17:50] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:17:50] [INFO:] Initializing Renderer...
+[2026-02-04 21:17:50] [INFO:] Using Renderer API:
+[2026-02-04 21:17:50] [INFO:] Direct3D11
+[2026-02-04 21:17:50] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:18:31] [INFO:] Application Started.
+[2026-02-04 21:18:31] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:18:31] [INFO:] Initializing Renderer...
+[2026-02-04 21:18:31] [INFO:] Using Renderer API:
+[2026-02-04 21:18:31] [INFO:] Direct3D11
+[2026-02-04 21:18:31] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:18:54] [INFO:] Application Started.
+[2026-02-04 21:18:54] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:18:54] [INFO:] Initializing Renderer...
+[2026-02-04 21:18:54] [INFO:] Using Renderer API:
+[2026-02-04 21:18:54] [INFO:] Direct3D11
+[2026-02-04 21:18:54] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:19:22] [INFO:] Application Started.
+[2026-02-04 21:19:22] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:19:22] [INFO:] Initializing Renderer...
+[2026-02-04 21:19:22] [INFO:] Using Renderer API:
+[2026-02-04 21:19:22] [INFO:] Direct3D11
+[2026-02-04 21:19:22] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:19:37] [INFO:] Application Started.
+[2026-02-04 21:19:37] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:19:37] [INFO:] Initializing Renderer...
+[2026-02-04 21:19:38] [INFO:] Using Renderer API:
+[2026-02-04 21:19:38] [INFO:] Direct3D11
+[2026-02-04 21:19:38] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:20:42] [INFO:] Application Started.
+[2026-02-04 21:20:42] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:20:42] [INFO:] Initializing Renderer...
+[2026-02-04 21:20:42] [INFO:] Using Renderer API:
+[2026-02-04 21:20:42] [INFO:] Direct3D11
+[2026-02-04 21:20:42] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:24:08] [INFO:] Application Started.
+[2026-02-04 21:24:08] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:24:08] [INFO:] Initializing Renderer...
+[2026-02-04 21:24:08] [INFO:] Using Renderer API:
+[2026-02-04 21:24:08] [INFO:] Direct3D11
+[2026-02-04 21:24:08] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:24:45] [INFO:] Application Started.
+[2026-02-04 21:24:45] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:24:45] [INFO:] Initializing Renderer...
+[2026-02-04 21:24:45] [INFO:] Using Renderer API:
+[2026-02-04 21:24:45] [INFO:] Direct3D11
+[2026-02-04 21:24:45] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:26:31] [INFO:] Application Started.
+[2026-02-04 21:26:31] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:26:31] [INFO:] Initializing Renderer...
+[2026-02-04 21:26:31] [INFO:] Using Renderer API:
+[2026-02-04 21:26:31] [INFO:] Direct3D11
+[2026-02-04 21:26:31] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:28:14] [INFO:] Application Started.
+[2026-02-04 21:28:14] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:28:14] [INFO:] Initializing Renderer...
+[2026-02-04 21:28:14] [INFO:] Using Renderer API:
+[2026-02-04 21:28:14] [INFO:] Direct3D11
+[2026-02-04 21:28:14] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:30:37] [INFO:] Application Started.
+[2026-02-04 21:30:37] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:30:37] [INFO:] Initializing Renderer...
+[2026-02-04 21:30:38] [INFO:] Using Renderer API:
+[2026-02-04 21:30:38] [INFO:] Direct3D11
+[2026-02-04 21:30:38] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:31:20] [INFO:] Application Started.
+[2026-02-04 21:31:20] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:31:20] [INFO:] Initializing Renderer...
+[2026-02-04 21:31:20] [INFO:] Using Renderer API:
+[2026-02-04 21:31:20] [INFO:] Direct3D11
+[2026-02-04 21:31:20] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:31:32] [INFO:] Application Started.
+[2026-02-04 21:31:32] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:31:32] [INFO:] Initializing Renderer...
+[2026-02-04 21:31:33] [INFO:] Using Renderer API:
+[2026-02-04 21:31:33] [INFO:] Direct3D11
+[2026-02-04 21:31:33] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:31:54] [INFO:] Application Started.
+[2026-02-04 21:31:54] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:31:54] [INFO:] Initializing Renderer...
+[2026-02-04 21:31:54] [INFO:] Using Renderer API:
+[2026-02-04 21:31:54] [INFO:] Direct3D11
+[2026-02-04 21:31:54] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:33:47] [INFO:] Application Started.
+[2026-02-04 21:33:47] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:33:47] [INFO:] Initializing Renderer...
+[2026-02-04 21:33:47] [INFO:] Using Renderer API:
+[2026-02-04 21:33:47] [INFO:] Direct3D11
+[2026-02-04 21:33:47] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:57:14] [INFO:] Application Started.
+[2026-02-04 21:57:14] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:57:14] [INFO:] Initializing Renderer...
+[2026-02-04 21:57:14] [INFO:] Using Renderer API:
+[2026-02-04 21:57:14] [INFO:] Direct3D11
+[2026-02-04 21:57:14] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 21:59:54] [INFO:] Application Started.
+[2026-02-04 21:59:54] [INFO:] ImGui Layer Initialized.
+[2026-02-04 21:59:54] [INFO:] Initializing Renderer...
+[2026-02-04 21:59:55] [INFO:] Using Renderer API:
+[2026-02-04 21:59:55] [INFO:] Direct3D11
+[2026-02-04 21:59:55] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:02:59] [INFO:] Application Started.
+[2026-02-04 22:02:59] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:02:59] [INFO:] Initializing Renderer...
+[2026-02-04 22:02:59] [INFO:] Using Renderer API:
+[2026-02-04 22:02:59] [INFO:] Direct3D11
+[2026-02-04 22:02:59] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:03:49] [INFO:] Application Started.
+[2026-02-04 22:03:49] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:03:49] [INFO:] Initializing Renderer...
+[2026-02-04 22:03:49] [INFO:] Using Renderer API:
+[2026-02-04 22:03:49] [INFO:] Direct3D11
+[2026-02-04 22:03:49] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:04:11] [INFO:] Application Started.
+[2026-02-04 22:04:11] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:04:11] [INFO:] Initializing Renderer...
+[2026-02-04 22:04:11] [INFO:] Using Renderer API:
+[2026-02-04 22:04:11] [INFO:] Direct3D11
+[2026-02-04 22:04:11] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:04:30] [INFO:] Application Started.
+[2026-02-04 22:04:30] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:04:30] [INFO:] Initializing Renderer...
+[2026-02-04 22:04:31] [INFO:] Using Renderer API:
+[2026-02-04 22:04:31] [INFO:] Direct3D11
+[2026-02-04 22:04:31] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:04:48] [INFO:] Application Started.
+[2026-02-04 22:04:48] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:04:48] [INFO:] Initializing Renderer...
+[2026-02-04 22:04:48] [INFO:] Using Renderer API:
+[2026-02-04 22:04:48] [INFO:] Direct3D11
+[2026-02-04 22:04:48] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:05:00] [INFO:] Application Started.
+[2026-02-04 22:05:00] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:05:00] [INFO:] Initializing Renderer...
+[2026-02-04 22:05:00] [INFO:] Using Renderer API:
+[2026-02-04 22:05:00] [INFO:] Direct3D11
+[2026-02-04 22:05:00] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:05:43] [INFO:] Application Started.
+[2026-02-04 22:05:43] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:05:43] [INFO:] Initializing Renderer...
+[2026-02-04 22:05:43] [INFO:] Using Renderer API:
+[2026-02-04 22:05:43] [INFO:] Direct3D11
+[2026-02-04 22:05:43] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:08:06] [INFO:] Application Started.
+[2026-02-04 22:08:06] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:08:06] [INFO:] Initializing Renderer...
+[2026-02-04 22:08:07] [INFO:] Using Renderer API:
+[2026-02-04 22:08:07] [INFO:] Direct3D11
+[2026-02-04 22:08:07] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:09:54] [INFO:] Application Started.
+[2026-02-04 22:09:54] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:09:54] [INFO:] Initializing Renderer...
+[2026-02-04 22:09:54] [INFO:] Using Renderer API:
+[2026-02-04 22:09:54] [INFO:] Direct3D11
+[2026-02-04 22:09:54] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:10:31] [INFO:] Application Started.
+[2026-02-04 22:10:31] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:10:31] [INFO:] Initializing Renderer...
+[2026-02-04 22:10:32] [INFO:] Using Renderer API:
+[2026-02-04 22:10:32] [INFO:] Direct3D11
+[2026-02-04 22:10:32] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:10:46] [INFO:] Application Started.
+[2026-02-04 22:10:46] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:10:46] [INFO:] Initializing Renderer...
+[2026-02-04 22:10:47] [INFO:] Using Renderer API:
+[2026-02-04 22:10:47] [INFO:] Direct3D11
+[2026-02-04 22:10:47] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:12:16] [INFO:] Application Started.
+[2026-02-04 22:12:16] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:12:16] [INFO:] Initializing Renderer...
+[2026-02-04 22:12:17] [INFO:] Using Renderer API:
+[2026-02-04 22:12:17] [INFO:] Direct3D11
+[2026-02-04 22:12:17] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:12:54] [INFO:] Application Started.
+[2026-02-04 22:12:54] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:12:54] [INFO:] Initializing Renderer...
+[2026-02-04 22:12:54] [INFO:] Using Renderer API:
+[2026-02-04 22:12:54] [INFO:] Direct3D11
+[2026-02-04 22:12:54] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:13:15] [INFO:] Application Started.
+[2026-02-04 22:13:15] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:13:15] [INFO:] Initializing Renderer...
+[2026-02-04 22:13:15] [INFO:] Using Renderer API:
+[2026-02-04 22:13:15] [INFO:] Direct3D11
+[2026-02-04 22:13:15] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:14:56] [INFO:] Application Started.
+[2026-02-04 22:14:56] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:14:56] [INFO:] Initializing Renderer...
+[2026-02-04 22:14:56] [INFO:] Using Renderer API:
+[2026-02-04 22:14:56] [INFO:] Direct3D11
+[2026-02-04 22:14:56] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:15:32] [INFO:] Application Started.
+[2026-02-04 22:15:32] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:15:32] [INFO:] Initializing Renderer...
+[2026-02-04 22:15:32] [INFO:] Using Renderer API:
+[2026-02-04 22:15:32] [INFO:] Direct3D11
+[2026-02-04 22:15:32] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:16:49] [INFO:] Application Started.
+[2026-02-04 22:16:49] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:16:49] [INFO:] Initializing Renderer...
+[2026-02-04 22:16:49] [INFO:] Using Renderer API:
+[2026-02-04 22:16:49] [INFO:] Direct3D11
+[2026-02-04 22:16:49] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:17:38] [INFO:] Application Started.
+[2026-02-04 22:17:38] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:17:38] [INFO:] Initializing Renderer...
+[2026-02-04 22:17:38] [INFO:] Using Renderer API:
+[2026-02-04 22:17:38] [INFO:] Direct3D11
+[2026-02-04 22:17:38] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:17:50] [INFO:] Application Started.
+[2026-02-04 22:17:50] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:17:50] [INFO:] Initializing Renderer...
+[2026-02-04 22:17:50] [INFO:] Using Renderer API:
+[2026-02-04 22:17:50] [INFO:] Direct3D11
+[2026-02-04 22:17:50] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:18:27] [INFO:] Application Started.
+[2026-02-04 22:18:27] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:18:27] [INFO:] Initializing Renderer...
+[2026-02-04 22:18:27] [INFO:] Using Renderer API:
+[2026-02-04 22:18:27] [INFO:] Direct3D11
+[2026-02-04 22:18:27] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:19:11] [INFO:] Application Started.
+[2026-02-04 22:19:11] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:19:11] [INFO:] Initializing Renderer...
+[2026-02-04 22:19:11] [INFO:] Using Renderer API:
+[2026-02-04 22:19:11] [INFO:] Direct3D11
+[2026-02-04 22:19:11] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:19:51] [INFO:] Application Started.
+[2026-02-04 22:19:51] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:19:51] [INFO:] Initializing Renderer...
+[2026-02-04 22:19:52] [INFO:] Using Renderer API:
+[2026-02-04 22:19:52] [INFO:] Direct3D11
+[2026-02-04 22:19:52] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:41:54] [INFO:] Application Started.
+[2026-02-04 22:41:54] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:41:54] [INFO:] Initializing Renderer...
+[2026-02-04 22:41:54] [INFO:] Using Renderer API:
+[2026-02-04 22:41:54] [INFO:] Direct3D11
+[2026-02-04 22:41:54] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:42:55] [INFO:] Application Started.
+[2026-02-04 22:42:55] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:42:55] [INFO:] Initializing Renderer...
+[2026-02-04 22:42:55] [INFO:] Using Renderer API:
+[2026-02-04 22:42:55] [INFO:] Direct3D11
+[2026-02-04 22:42:55] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:44:21] [INFO:] Application Started.
+[2026-02-04 22:44:21] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:44:21] [INFO:] Initializing Renderer...
+[2026-02-04 22:44:21] [INFO:] Using Renderer API:
+[2026-02-04 22:44:21] [INFO:] Direct3D11
+[2026-02-04 22:44:21] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:45:26] [INFO:] Application Started.
+[2026-02-04 22:45:26] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:45:26] [INFO:] Initializing Renderer...
+[2026-02-04 22:45:26] [INFO:] Using Renderer API:
+[2026-02-04 22:45:26] [INFO:] Direct3D11
+[2026-02-04 22:45:26] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:50:36] [INFO:] Application Started.
+[2026-02-04 22:50:36] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:50:36] [INFO:] Initializing Renderer...
+[2026-02-04 22:50:36] [INFO:] Using Renderer API:
+[2026-02-04 22:50:36] [INFO:] Direct3D11
+[2026-02-04 22:50:36] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:51:18] [INFO:] Application Started.
+[2026-02-04 22:51:18] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:51:18] [INFO:] Initializing Renderer...
+[2026-02-04 22:51:18] [INFO:] Using Renderer API:
+[2026-02-04 22:51:18] [INFO:] Direct3D11
+[2026-02-04 22:51:18] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:53:24] [INFO:] Application Started.
+[2026-02-04 22:53:24] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:53:24] [INFO:] Initializing Renderer...
+[2026-02-04 22:53:25] [INFO:] Using Renderer API:
+[2026-02-04 22:53:25] [INFO:] Direct3D11
+[2026-02-04 22:53:25] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj
+[2026-02-04 22:55:11] [INFO:] Application Started.
+[2026-02-04 22:55:11] [INFO:] ImGui Layer Initialized.
+[2026-02-04 22:55:11] [INFO:] Initializing Renderer...
+[2026-02-04 22:55:11] [INFO:] Using Renderer API:
+[2026-02-04 22:55:11] [INFO:] Direct3D11
+[2026-02-04 22:55:11] [INFO:] Loaded model from file: ../LGE/assets/models/hknife.obj

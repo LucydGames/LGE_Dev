@@ -8,6 +8,7 @@ struct Vertex
 	glm::vec3 Position;
 	uint32_t Color;
 	uint32_t  Normal{};
+	uint32_t Tangent{};
 	int16_t  U;
 	int16_t V;
 
