@@ -10,13 +10,6 @@
 #include <string>
 #include <print>
 
-#ifdef LGE_EDITOR_BUILD
-//#define SCREEN_WIDTH 1280
-#define LGE_USE_IMGUI 0
-#else
-#define LGE_USE_IMGUI 1
-#endif
-
 namespace lge 
 {
 	

@@ -92,7 +92,7 @@ void Renderer::Initialize(SDL_Window* window, bgfx::RendererType::Enum RendererA
 
 	m_View = glm::lookAt(m_Camera, m_At, { 0.0f, 1.0f, 0.0f });
 	m_Projection = glm::ortho(-SCREEN_WIDTH / 2.0f, SCREEN_WIDTH / 2.0f, -SCREEN_HEIGHT / 2.0f, SCREEN_HEIGHT / 2.0f, -1000.0f, 1000.0f);
-	m_PerspectiveProjection = glm::perspective(glm::radians(60.0f), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.01f, 100000.0f);
+	m_PerspectiveProjection = glm::perspective(glm::radians(70.0f), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.01f, 100000.0f);
 
 
 	m_FrameBuffer = new FrameBuffer(SCREEN_WIDTH, SCREEN_HEIGHT);

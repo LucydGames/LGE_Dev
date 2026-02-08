@@ -16,6 +16,7 @@
 
 #include "lge_utils.h"
 
+#define LGE_PLATFORM_WINDOWS
 #define LGE_EDITOR_BUILD
 
 static const char* RenderApi[] = { "None", "Agc", "Direct3D11", "Direct3D12", "Gnm", "Metal", "Nvn", "OpenGLES", "OpenGL", "Vulkan", "Count"};

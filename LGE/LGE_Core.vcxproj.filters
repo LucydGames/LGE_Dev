@@ -110,5 +110,11 @@
     <ClInclude Include="lge_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lge_camera.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

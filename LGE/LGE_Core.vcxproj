@@ -221,11 +221,13 @@
   <ItemGroup>
     <ClInclude Include="application.h" />
     <ClInclude Include="components.h" />
+    <ClInclude Include="event.h" />
     <ClInclude Include="frame_buffer.h" />
     <ClInclude Include="image.h" />
     <ClInclude Include="imgui\backends\imgui_impl_bgfx.h" />
     <ClInclude Include="imgui\backends\imgui_impl_sdl3.h" />
     <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="lge_camera.h" />
     <ClInclude Include="lge_model.h" />
     <ClInclude Include="lge_utils.h" />
     <ClInclude Include="log.h" />

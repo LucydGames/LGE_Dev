@@ -28,6 +28,7 @@ void main()
 	mat3 tbn = mtxFromCols(v_tangent, v_bitangent, v_normal);
 
 	// eye position in world space
+	// Statically defined view pos, create and update uniform using camera.
 	vec3 weyepos = mul(vec4(0.0, 0.0, 0.0, 1.0), u_view).xyz;
 	// tangent space view dir
 	v_view = mul(weyepos - wpos, tbn);
