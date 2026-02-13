@@ -1,5 +1,5 @@
-C:\source\LGE_Dev\LGE\application.cpp;C:\source\LGE_Dev\LGE\x64\Release\application.obj
-C:\source\LGE_Dev\LGE\image.cpp;C:\source\LGE_Dev\LGE\x64\Release\image.obj
+C:\source\LGE_Dev\LGE\Engine\application.cpp;C:\source\LGE_Dev\LGE\x64\Release\application.obj
+C:\source\LGE_Dev\LGE\Engine\image.cpp;C:\source\LGE_Dev\LGE\x64\Release\image.obj
 C:\source\LGE_Dev\LGE\imgui\backends\imgui_impl_bgfx.cpp;C:\source\LGE_Dev\LGE\x64\Release\imgui_impl_bgfx.obj
 C:\source\LGE_Dev\LGE\imgui\backends\imgui_impl_sdl3.cpp;C:\source\LGE_Dev\LGE\x64\Release\imgui_impl_sdl3.obj
 C:\source\LGE_Dev\LGE\imgui\imgui.cpp;C:\source\LGE_Dev\LGE\x64\Release\imgui.obj
@@ -7,8 +7,8 @@ C:\source\LGE_Dev\LGE\imgui\imgui_demo.cpp;C:\source\LGE_Dev\LGE\x64\Release\img
 C:\source\LGE_Dev\LGE\imgui\imgui_draw.cpp;C:\source\LGE_Dev\LGE\x64\Release\imgui_draw.obj
 C:\source\LGE_Dev\LGE\imgui\imgui_tables.cpp;C:\source\LGE_Dev\LGE\x64\Release\imgui_tables.obj
 C:\source\LGE_Dev\LGE\imgui\imgui_widgets.cpp;C:\source\LGE_Dev\LGE\x64\Release\imgui_widgets.obj
-C:\source\LGE_Dev\LGE\lge_model.cpp;C:\source\LGE_Dev\LGE\x64\Release\lge_model.obj
-C:\source\LGE_Dev\LGE\log.cpp;C:\source\LGE_Dev\LGE\x64\Release\log.obj
-C:\source\LGE_Dev\LGE\renderer.cpp;C:\source\LGE_Dev\LGE\x64\Release\renderer.obj
-C:\source\LGE_Dev\LGE\shader.cpp;C:\source\LGE_Dev\LGE\x64\Release\shader.obj
-C:\source\LGE_Dev\LGE\frame_buffer.cpp;C:\source\LGE_Dev\LGE\x64\Release\frame_buffer.obj
+C:\source\LGE_Dev\LGE\Engine\lge_model.cpp;C:\source\LGE_Dev\LGE\x64\Release\lge_model.obj
+C:\source\LGE_Dev\LGE\Engine\log.cpp;C:\source\LGE_Dev\LGE\x64\Release\log.obj
+C:\source\LGE_Dev\LGE\Engine\renderer.cpp;C:\source\LGE_Dev\LGE\x64\Release\renderer.obj
+C:\source\LGE_Dev\LGE\Engine\shader.cpp;C:\source\LGE_Dev\LGE\x64\Release\shader.obj
+C:\source\LGE_Dev\LGE\Engine\frame_buffer.cpp;C:\source\LGE_Dev\LGE\x64\Release\frame_buffer.obj

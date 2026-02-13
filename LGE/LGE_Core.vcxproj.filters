@@ -21,22 +21,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="shader.cpp">
+    <ClCompile Include="Engine\shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="renderer.cpp">
+    <ClCompile Include="Engine\renderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="frame_buffer.cpp">
+    <ClCompile Include="Engine\frame_buffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="application.cpp">
+    <ClCompile Include="Engine\application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="log.cpp">
+    <ClCompile Include="Engine\log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="image.cpp">
+    <ClCompile Include="Engine\image.cpp">
       <Filter>Source Files\ImGui</Filter>
     </ClCompile>
     <ClCompile Include="imgui\imgui.cpp">
@@ -60,36 +60,36 @@
     <ClCompile Include="imgui\imgui_widgets.cpp">
       <Filter>Source Files\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="lge_model.cpp">
+    <ClCompile Include="Engine\lge_model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shader.h">
+    <ClInclude Include="Engine\shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="image.h">
+    <ClInclude Include="Engine\image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="renderer.h">
+    <ClInclude Include="Engine\renderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="frame_buffer.h">
+    <ClInclude Include="Engine\frame_buffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="application.h">
+    <ClInclude Include="Engine\application.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="log.h">
+    <ClInclude Include="Engine\log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="components.h">
+    <ClInclude Include="Engine\components.h">
       <Filter>Source Files\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="scene.h">
+    <ClInclude Include="Engine\scene.h">
       <Filter>Source Files\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="meta.h">
+    <ClInclude Include="Engine\meta.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="imgui\backends\imgui_impl_sdl3.h">
@@ -101,19 +101,25 @@
     <ClInclude Include="imgui\backends\imgui_impl_bgfx.h">
       <Filter>Source Files\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="lge_model.h">
+    <ClInclude Include="Engine\lge_model.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="renderer_common.h">
+    <ClInclude Include="Engine\renderer_common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lge_utils.h">
+    <ClInclude Include="Engine\lge_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lge_camera.h">
+    <ClInclude Include="Engine\lge_camera.h">
       <Filter>Source Files\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="event.h">
+    <ClInclude Include="Engine\event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\entry_point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

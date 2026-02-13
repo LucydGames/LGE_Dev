@@ -1,4 +1,5 @@
 #include "application.h"
+#include "renderer.h"
 
 
 lge::Application::Application()
@@ -9,7 +10,7 @@ lge::Application::Application()
 		Log::GetInstance().PrintError(SDL_GetError());
 		//std::println("Couldn't initialize SDL: {}", SDL_GetError());
 	}
-	
+	Renderer::Initialize(MainWindow.GetWindow(), bgfx::RendererType::Count);
 }
 
 lge::Application::~Application()
@@ -17,6 +18,7 @@ lge::Application::~Application()
 	ImGuiLayer.Shutdown();
 	MainWindow.~LgeWindow();
 }
+
 
 bool lge::Application::InitializeLayers()
 {

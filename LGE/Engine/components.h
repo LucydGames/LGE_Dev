@@ -49,3 +49,6 @@ struct TransformComponent
 	}
 
 };
+
+
+// LGE MODEL MESH COMPONENT WOULD GO HERE, WITH MESH DATA AND MATERIAL DATA. RENDER SYSTEM WOULD THEN QUERY FOR. Contains Lge_Model* Set/get functions, is valid. (Set from Model* or filepath) transform component

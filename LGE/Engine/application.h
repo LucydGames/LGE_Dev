@@ -3,6 +3,7 @@
 
 #include "imgui_impl_sdl3.h"
 #include "imgui.h"
+
 #include "log.h"
 #include "meta.h"
 #include <SDL3/SDL.h>
@@ -54,6 +55,11 @@ namespace lge
 		Application();
 		~Application();
 
+		void Run();
+
+		// virtual void OnUiRender(); // For custom ImGui rendering in derived classes, eventually handled by layers create needed virtual funcs to get lge up and running 
+		// for now
+		
 		bool InitializeLayers();
 
 		void RenderLayers();
@@ -66,10 +72,11 @@ namespace lge
 		// Getters
 		SDL_Window* GetMainWindow();
 		ImGuiLayer ImGuiLayer;
-		SDL_Event& GetEvent() { return Event; };
+		SDL_Event& GetSdlEvent() { return Event; };
 		bool ShouldClose() { return bShouldClose; };
 	private:
 		LgeWindow MainWindow{ SCREEN_WIDTH, SCREEN_HEIGHT, "LGE" };
+		
 		bool bShouldClose = false;
 		bool bImGuiInitialized = false;
 		SDL_Event Event;
